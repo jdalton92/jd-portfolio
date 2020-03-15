@@ -1,0 +1,25 @@
+* {
+  font-family: arial, helvetica;
+  margin: 0px;
+}
+
+h3,
+h5 {
+  margin: 0px !important;
+}
+
+.tool-tip {
+  color: black !important;
+}
+
+#fp-nav ul li a span {
+  background: white;
+}
+
+#fp-nav {
+  right: 0px !important;
+}
+
+.fp-scroller {
+  height: 100% !important;
+}
