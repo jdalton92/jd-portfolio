@@ -46,6 +46,7 @@
 
 .portfolio-card-navbar {
   width: 100%;
+  border-radius: 4px 4px 0px 0px;
   min-height: 45px;
   display: flex;
   justify-content: center;
@@ -126,6 +127,7 @@ p {
   width: 100%;
   align-items: center;
   justify-content: center;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .portfolio-description,
@@ -296,7 +298,7 @@ p {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
   .portfolio-header {
     font-size: 3.5em;
   }

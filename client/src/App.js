@@ -10,11 +10,11 @@ const App = () => {
   ReactGA.pageview(window.location.pathname + window.location.search);
 
   return (
-    <div className="body">
+    <>
       <NavigationBar />
       <Notification />
       <FullPage />
-    </div>
+    </>
   );
 };
 

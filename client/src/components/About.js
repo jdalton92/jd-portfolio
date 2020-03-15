@@ -8,6 +8,11 @@ const About = () => {
         <div className="header about-header">
           <h3>ABOUT ME</h3>
         </div>
+        <div className="about-slogan">
+          I am a self-motivated, self-taught developer with technical skills
+          across a full stack of technologies, and experience across the whole
+          software development lifecycle
+        </div>
         <div className="about-left">
           <div className="about-block">
             <h4 className="about-subheader">EDUCATION</h4>
@@ -146,7 +151,8 @@ const About = () => {
               </li>
               <li>
                 Sole creater/owner of bespoke responsive full stack single page
-                web applications built with modern tech stack, refer
+                web applications built with modern tech stack, deploying via
+                Heroku, Digital Ocean, and AWS. Refer
                 <a href="/#portfolio"> portfolio</a>
               </li>
             </ul>

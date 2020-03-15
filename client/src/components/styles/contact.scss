@@ -28,7 +28,16 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 70%;
+  width: 60%;
+  padding: 0px 50px 0px 50px;
+  margin-top: 30px;
+  background-color: rgb(243, 243, 243);
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.form-container:hover {
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .form-container form {
@@ -86,6 +95,7 @@
 .form-button-container {
   justify-content: flex-start;
   margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .form-button {
@@ -93,7 +103,7 @@
   color: rgb(90, 88, 88);
   background-color: transparent;
   padding: 10px 75px 10px 75px;
-  border-radius: 28px;
+  border-radius: 4px;
 }
 
 .form-button:hover {

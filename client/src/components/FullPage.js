@@ -2,7 +2,7 @@ import React from "react";
 import "fullpage.js/vendors/scrolloverflow"; // Optional. When using scrollOverflow:true
 import ReactFullpage from "@fullpage/react-fullpage";
 import Landing from "./Landing";
-import About from "./About";
+import About from "./Aboutv2";
 import Portfolio from "./Portfolio";
 import Contact from "./Contact";
 
@@ -10,12 +10,12 @@ const FullPage = () => {
   const anchors = ["home", "about", "portfolio", "contact"];
   return (
     <ReactFullpage
-      scrollOverflow={true}
+      scrollOverflow="true"
       paddingTop="25px"
       licenseKey={"1DF28CA2-C668452E-AED10A3B-E4A7A153"}
       anchors={anchors}
       normalScrollElements={
-        ".portfolio-card-body, .portfolio-description, .portfolio-tech-stack, .form-message, .form-input"
+        ".about-right-content, .portfolio-description, .portfolio-tech-stack, .form-message, .form-input"
       }
       navigation
       navigationTooltips={anchors}
@@ -24,12 +24,12 @@ const FullPage = () => {
         console.log("onLeave event", { origin, destination, direction });
       }}
       render={({ fullpageApi }) => (
-        <div id="fullpage-wrapper">
+        <>
           <Landing api={fullpageApi} />
           <About />
           <Portfolio />
           <Contact />
-        </div>
+        </>
       )}
     />
   );

@@ -1,13 +1,8 @@
 .about-container {
   height: 150vh;
-}
-
-.about-container {
-  height: 100%;
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 15% 85%;
-  overflow: visible;
 }
 
 ::-webkit-scrollbar {

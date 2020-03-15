@@ -24,7 +24,9 @@ const Contact = () => {
       setTimeout(() => setNotification(""), 10000);
     } catch (e) {
       console.log(e);
-      setNotification(e.message);
+      setNotification(
+        "Request failed, please contact me via the Gmail link at the bottom of the page"
+      );
       setTimeout(() => setNotification(""), 10000);
       setLoading(false);
     }
