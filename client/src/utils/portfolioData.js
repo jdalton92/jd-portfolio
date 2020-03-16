@@ -44,10 +44,9 @@ export const jamesDaltionIo = {
   description: (
     <div className="jamesdaltonio-description">
       <span>
-        jamesdalton.io is a responsive website and portfolio to display
-        information about myself including professional/academic history, as
-        well as provide information about my portfolio of bespoke web
-        applications
+        jamesdalton.io is a responsive website to display information about
+        myself including professional/academic history, as well as provide
+        detail about my portfolio of bespoke web applications
       </span>
     </div>
   ),

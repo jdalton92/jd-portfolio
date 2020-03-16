@@ -64,7 +64,7 @@ const Skillset = () => {
                 <td className="about-stars">★★★☆☆</td>
               </tr>
               <tr>
-                <td>Git</td>
+                <td>GitHub</td>
                 <td className="about-stars">★★★☆☆</td>
               </tr>
             </tbody>

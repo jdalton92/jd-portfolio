@@ -231,6 +231,8 @@ p {
 .portfolio-item-url {
   font-size: 26px;
   padding-top: 5px;
+  color: rgb(243, 243, 243);
+  text-decoration: none;
 }
 
 .portfolio-item-url:hover {

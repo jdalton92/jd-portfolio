@@ -57,9 +57,9 @@ const PortfolioItem = ({ data }) => {
         </div>
         <div className="portfolio-name-container">
           <div className="portfolio-item-name">{data.title}</div>
-          <div className="portfolio-item-url" onClick={handleClick}>
+          <a className="portfolio-item-url" target="_blank" href={data.url}>
             {data.url}
-          </div>
+          </a>
         </div>
       </div>
     </div>

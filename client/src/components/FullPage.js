@@ -2,7 +2,7 @@ import React from "react";
 import "fullpage.js/vendors/scrolloverflow"; // Optional. When using scrollOverflow:true
 import ReactFullpage from "@fullpage/react-fullpage";
 import Landing from "./Landing";
-import About from "./Aboutv2";
+import About from "./About";
 import Portfolio from "./Portfolio";
 import Contact from "./Contact";
 
