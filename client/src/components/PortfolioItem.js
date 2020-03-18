@@ -8,7 +8,7 @@ const PortfolioItem = ({ data }) => {
 
   const handleClick = e => {
     e.preventDefault();
-    const win = window.open(data.url);
+    const win = window.open("http://" + data.url);
     if (win != null) {
       win.focus();
     }
@@ -32,19 +32,25 @@ const PortfolioItem = ({ data }) => {
             <div className="portfolio-links-container">
               <div className="portfolio-links">
                 <div
-                  className="portfolio-link"
+                  className={`portfolio-link ${
+                    view === "image" ? "portfolio-selected" : ""
+                  }`}
                   onClick={() => setView("image")}
                 >
                   preview
                 </div>
                 <div
-                  className="portfolio-link"
+                  className={`portfolio-link ${
+                    view === "description" ? "portfolio-selected" : ""
+                  }`}
                   onClick={() => setView("description")}
                 >
                   description
                 </div>
                 <div
-                  className="portfolio-link"
+                  className={`portfolio-link ${
+                    view === "techStack" ? "portfolio-selected" : ""
+                  }`}
                   onClick={() => setView("techStack")}
                 >
                   stack
@@ -57,9 +63,9 @@ const PortfolioItem = ({ data }) => {
         </div>
         <div className="portfolio-name-container">
           <div className="portfolio-item-name">{data.title}</div>
-          <a className="portfolio-item-url" target="_blank" href={data.url}>
+          <div className="portfolio-item-url" onClick={handleClick}>
             {data.url}
-          </a>
+          </div>
         </div>
       </div>
     </div>

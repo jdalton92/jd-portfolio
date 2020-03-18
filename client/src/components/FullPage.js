@@ -20,13 +20,13 @@ const FullPage = () => {
       navigation
       navigationTooltips={anchors}
       sectionsColor={["#282c34", "#b3bbbb", "#94958B", "#B7B6C1"]}
-      onLeave={(origin, destination, direction) => {
-        console.log("onLeave event", { origin, destination, direction });
-      }}
+      // onLeave={(origin, destination, direction) => {
+      //   console.log("onLeave event", { origin, destination, direction });
+      // }}
       render={({ fullpageApi }) => (
         <>
           <Landing api={fullpageApi} />
-          <About />
+          <About api={fullpageApi} />
           <Portfolio />
           <Contact />
         </>

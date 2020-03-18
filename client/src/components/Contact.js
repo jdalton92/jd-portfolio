@@ -89,9 +89,9 @@ const Contact = () => {
               </div>
             </form>
           )}
-        </div>
-        <div className="contact-icons">
-          <ContactIcons />
+          <div className="contact-icons">
+            <ContactIcons />
+          </div>
         </div>
       </div>
     </div>

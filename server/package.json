@@ -1,7 +1,7 @@
 {
-  "name": "server",
+  "name": "jamesdalton.io-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "jamesdalton.io backend",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",

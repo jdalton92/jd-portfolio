@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.27729c28.chunk.css",
+    "main.js": "/static/js/main.9072e6a2.chunk.js",
+    "main.js.map": "/static/js/main.9072e6a2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.bc2e365c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.bc2e365c.js.map",
+    "static/js/2.b2e1f778.chunk.js": "/static/js/2.b2e1f778.chunk.js",
+    "static/js/2.b2e1f778.chunk.js.map": "/static/js/2.b2e1f778.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.b96f40b6227331a990c130a43a43590c.js": "/precache-manifest.b96f40b6227331a990c130a43a43590c.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.27729c28.chunk.css.map": "/static/css/main.27729c28.chunk.css.map",
+    "static/js/2.b2e1f778.chunk.js.LICENSE.txt": "/static/js/2.b2e1f778.chunk.js.LICENSE.txt",
+    "static/media/landing.css": "/static/media/linkedin.619231ff.svg",
+    "static/media/jamesdaltonio-mobile.png": "/static/media/jamesdaltonio-mobile.f73308c5.png",
+    "static/media/jamesdaltonio.png": "/static/media/jamesdaltonio.d37f095d.png",
+    "static/media/moocs-mobile.jpg": "/static/media/moocs-mobile.f1fee554.jpg",
+    "static/media/moocs.jfif": "/static/media/moocs.5239fb1c.jfif",
+    "static/media/property-investor-dash(2).png": "/static/media/property-investor-dash(2).dd0b6a22.png",
+    "static/media/property-investor-dash-mobile.png": "/static/media/property-investor-dash-mobile.b7a37cd0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bc2e365c.js",
+    "static/js/2.b2e1f778.chunk.js",
+    "static/css/main.27729c28.chunk.css",
+    "static/js/main.9072e6a2.chunk.js"
+  ]
+}

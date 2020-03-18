@@ -6,7 +6,7 @@ import ProfessionalHistory from "./About.ProfessionalHistory";
 import Other from "./About.Other";
 import "./styles/about.css";
 
-const About = () => {
+const About = ({ api }) => {
   const [content, setContent] = useState("education");
 
   let aboutInfo;
