@@ -4,7 +4,7 @@ James Dalton Website and Portfolio
 
 ## Prototype
 
-> [www.jamesdalton.io](www.jamesdalton.io)
+> [https://jamesdalton.io](https://jamesdalton.io)
 
 ## Authors
 
