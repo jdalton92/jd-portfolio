@@ -157,6 +157,8 @@ p {
   width: 90%;
 }
 
+.flogs-description,
+.reacttrelloclone-description,
 .jamesdaltonio-description,
 .propertyinvestordash-description {
   height: 100%;
@@ -165,6 +167,8 @@ p {
   justify-content: center;
 }
 
+.flogs-description span,
+.reacttrelloclone-description span,
 .moocs-description span,
 .jamesdaltonio-description span,
 .propertyinvestordash-description span {

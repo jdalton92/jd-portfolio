@@ -3,6 +3,10 @@ import propertyInvestorDashDesktopImage from "../components/styles/images/proper
 import propertyInvestorDashMobileImage from "../components/styles/images/property-investor-dash-mobile.png";
 import jamesDaltonIoDesktopImage from "../components/styles/images/jamesdaltonio.png";
 import jamesDaltonIoMobileImage from "../components/styles/images/jamesdaltonio-mobile.png";
+import reactTrelloCloneDesktopImage from "../components/styles/images/react-trello-clone-desktop.jfif";
+import reactTrelloCloneMobileImage from "../components/styles/images/react-trello-clone-mobile.jpg";
+import flogsDesktopImage from "../components/styles/images/flogs-desktop.jfif";
+import flogsMobileImage from "../components/styles/images/flogs-mobile.jpg";
 import moocsDesktopImage from "../components/styles/images/moocs.jfif";
 import moocsMobileImage from "../components/styles/images/moocs-mobile.jpg";
 
@@ -28,8 +32,9 @@ export const propertyInvestorDash = {
     backend: "Node, Express, Mongoose, MongoDB",
     api: "REST",
     hosting: {
-      database: "Amazon Web Services (AWS)",
-      website: "Digital Ocean"
+      database: "AtlasDB with Amazon Web Services (AWS)",
+      website:
+        "Digital Ocean with Nginx reverse proxy, and SSL encryption with LetsEncrypt"
     }
   }
 };
@@ -56,8 +61,67 @@ export const jamesDaltionIo = {
     backend: "Node, Express, Mongoose, MongoDB",
     api: "REST",
     hosting: {
-      database: "Amazon Web Services (AWS)",
-      website: "Digital Ocean"
+      database: "AtlasDB with Amazon Web Services (AWS)",
+      website:
+        "Digital Ocean with Nginx reverse proxy, and SSL encryption with LetsEncrypt"
+    }
+  }
+};
+
+export const flogs = {
+  title: "flogs.me",
+  url: "www.flogs.me",
+  image: {
+    desktop: flogsDesktopImage,
+    mobile: flogsMobileImage
+  },
+  description: (
+    <div className="flogs-description">
+      <span>
+        flogs.me started as a finance blog (flog) and has expanded to be a
+        lifestyle blog for posting content from different contributors in
+        different topics including money, fitness, lifestyle, art, and more
+      </span>
+    </div>
+  ),
+  tech: {
+    frontend:
+      "HTML, CSS/SCSS, React (16.8+), React Hooks, Axios. JavaScript ES5/6 with try/catch blocks and async/await",
+    backend: "Node, Express, Mongoose, MongoDB",
+    api: "REST",
+    hosting: {
+      database: "AtlasDB with Amazon Web Services (AWS)",
+      website:
+        "Digital Ocean with Nginx reverse proxy, and SSL encryption with LetsEncrypt"
+    }
+  }
+};
+
+export const reactTrelloClone = {
+  title: "React Trello Clone",
+  url: "reacttrelloclone.herokuapp.com",
+  image: {
+    desktop: reactTrelloCloneDesktopImage,
+    mobile: reactTrelloCloneMobileImage
+  },
+  description: (
+    <div className="reacttrelloclone-description">
+      <span>
+        React Trello Clone is a recreation of a minimal Trello clone with
+        React/Redux, that I've built to use as a personal tool for tracking app
+        development, and to test different UI/UX concepts
+      </span>
+    </div>
+  ),
+  tech: {
+    frontend:
+      "HTML, SCSS, React (16.8+), Redux, React Hooks, Axios. JavaScript ES5/6 with try/catch blocks and async/await",
+    backend: "Node, Express, Mongoose, MongoDB",
+    api: "REST",
+    hosting: {
+      database: "AtlasDB with Amazon Web Services (AWS)",
+      website:
+        "Digital Ocean with Nginx reverse proxy, and SSL encryption with LetsEncrypt"
     }
   }
 };
@@ -138,7 +202,7 @@ export const moocs = {
     api: "REST, GraphQL",
     other: "Python (matplotlib), Octave, Matlab",
     hosting: {
-      database: "Amazon Web Services (AWS)",
+      database: "AtlasDB & Amazon Web Services (AWS)",
       website: "Heroku"
     }
   }

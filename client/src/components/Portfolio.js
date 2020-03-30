@@ -1,6 +1,8 @@
 import React from "react";
 import {
   propertyInvestorDash,
+  reactTrelloClone,
+  flogs,
   jamesDaltionIo,
   moocs
 } from "../utils/portfolioData";
@@ -15,6 +17,8 @@ const Portfolio = () => {
           <h3>PORTFOLIO</h3>
         </div>
         <PortfolioItem data={propertyInvestorDash} />
+        <PortfolioItem data={flogs} />
+        <PortfolioItem data={reactTrelloClone} />
         <PortfolioItem data={jamesDaltionIo} />
         <PortfolioItem data={moocs} />
       </div>

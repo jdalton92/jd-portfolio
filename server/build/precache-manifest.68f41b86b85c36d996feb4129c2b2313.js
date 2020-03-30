@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1fdd57067300c616ae8585dc0e67a311",
+    "revision": "56221482b91c53b911bdebb34c2743ab",
     "url": "/index.html"
   },
   {
-    "revision": "3eb9cab074a8d31bd579",
-    "url": "/static/css/main.e2dabf59.chunk.css"
+    "revision": "4c70de57f200dc79ef66",
+    "url": "/static/css/main.6c44ce58.chunk.css"
   },
   {
-    "revision": "6c6b6c9338c7414baa28",
-    "url": "/static/js/2.b2e1f778.chunk.js"
+    "revision": "3492c686934f8b2a0260",
+    "url": "/static/js/2.ccf82521.chunk.js"
   },
   {
     "revision": "f1a4659edb6ed7731fc6f9a4cefebbab",
-    "url": "/static/js/2.b2e1f778.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.ccf82521.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3eb9cab074a8d31bd579",
-    "url": "/static/js/main.9072e6a2.chunk.js"
+    "revision": "4c70de57f200dc79ef66",
+    "url": "/static/js/main.ff2a960f.chunk.js"
   },
   {
     "revision": "b970f9cd14996aa597dc",
     "url": "/static/js/runtime-main.bc2e365c.js"
+  },
+  {
+    "revision": "f2a8feafcd5873b9c3a269c469939fd7",
+    "url": "/static/media/flogs-desktop.f2a8feaf.jfif"
   },
   {
     "revision": "617870e422d4b75087cdcf9ff298032e",
@@ -58,5 +62,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b7a37cd02cc49d63c2cd1fd3c9ef7d34",
     "url": "/static/media/property-investor-dash-mobile.b7a37cd0.png"
+  },
+  {
+    "revision": "f2a8feafcd5873b9c3a269c469939fd7",
+    "url": "/static/media/react-trello-clone-desktop.f2a8feaf.jfif"
   }
 ]);
