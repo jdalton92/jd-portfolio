@@ -1,28 +1,53 @@
 import React from "react";
 
 const PortfolioContent = ({ data, view }) => {
-  let body = "";
+  const handleLiveLink = e => {
+    e.preventDefault();
+    const win = window.open("http://" + data.url);
+    if (win != null) {
+      win.focus();
+    }
+  };
 
+  const handleGitHubLink = e => {
+    e.preventDefault();
+    const win = window.open(data.github);
+    if (win != null) {
+      win.focus();
+    }
+  };
+
+  let body = "";
   if (view === "image") {
     body = (
-      <div className="portfolio-image-container">
-        <img
-          alt={`${data.title} desktop`}
-          title={`${data.title} desktop`}
-          src={data.image.desktop}
-          width="30"
-          height="30"
-          className="portfolio-image-desktop"
-        />
-        <img
-          alt={`${data.title} mobile`}
-          title={`${data.title} mobile`}
-          src={data.image.mobile}
-          width="30"
-          height="30"
-          className="portfolio-image-mobile"
-        />
-      </div>
+      <>
+        <div className="portfolio-image-container">
+          <img
+            alt={`${data.title} desktop`}
+            title={`${data.title} desktop`}
+            src={data.image.desktop}
+            width="30"
+            height="30"
+            className="portfolio-image-desktop"
+          />
+          <img
+            alt={`${data.title} mobile`}
+            title={`${data.title} mobile`}
+            src={data.image.mobile}
+            width="30"
+            height="30"
+            className="portfolio-image-mobile"
+          />
+          <div className="portfolio-link-container">
+            <div className="portfolio-item-url" onClick={handleLiveLink}>
+              View Site
+            </div>
+            <div className="portfolio-item-url" onClick={handleGitHubLink}>
+              GitHub repo
+            </div>
+          </div>
+        </div>
+      </>
     );
   } else if (view === "description") {
     body = <div className="portfolio-description">{data.description}</div>;
@@ -31,7 +56,7 @@ const PortfolioContent = ({ data, view }) => {
       <div className="portfolio-tech-stack">
         <ul>
           <li>
-            <b>Frontend:</b>
+            <b>Frontend: </b>
             {data.tech.frontend}
           </li>
           <li>

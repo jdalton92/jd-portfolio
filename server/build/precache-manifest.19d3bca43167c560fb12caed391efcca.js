@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "56221482b91c53b911bdebb34c2743ab",
+    "revision": "3044da89a78e3fc159b9c2cf050f604e",
     "url": "/index.html"
   },
   {
-    "revision": "4c70de57f200dc79ef66",
-    "url": "/static/css/main.6c44ce58.chunk.css"
+    "revision": "2c901b50dd14f9e61372",
+    "url": "/static/css/main.79a0f4b8.chunk.css"
   },
   {
     "revision": "3492c686934f8b2a0260",
@@ -16,16 +16,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.ccf82521.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4c70de57f200dc79ef66",
-    "url": "/static/js/main.ff2a960f.chunk.js"
+    "revision": "2c901b50dd14f9e61372",
+    "url": "/static/js/main.c1c5a381.chunk.js"
   },
   {
     "revision": "b970f9cd14996aa597dc",
     "url": "/static/js/runtime-main.bc2e365c.js"
   },
   {
-    "revision": "f2a8feafcd5873b9c3a269c469939fd7",
-    "url": "/static/media/flogs-desktop.f2a8feaf.jfif"
+    "revision": "092cf8dba529d2ce3f344ad3a178fb50",
+    "url": "/static/media/flogs-desktop.092cf8db.png"
+  },
+  {
+    "revision": "1bb29e3835c83b83305b025d91aac944",
+    "url": "/static/media/flogs-mobile.1bb29e38.png"
   },
   {
     "revision": "617870e422d4b75087cdcf9ff298032e",
@@ -64,7 +68,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/property-investor-dash-mobile.b7a37cd0.png"
   },
   {
-    "revision": "f2a8feafcd5873b9c3a269c469939fd7",
-    "url": "/static/media/react-trello-clone-desktop.f2a8feaf.jfif"
+    "revision": "8759e4c4f3304eb9af834fe1e3085887",
+    "url": "/static/media/react-trello-clone-desktop.8759e4c4.png"
+  },
+  {
+    "revision": "91ed786df884aaed24e02c0f61c8c627",
+    "url": "/static/media/react-trello-clone-mobile.91ed786d.png"
   }
 ]);

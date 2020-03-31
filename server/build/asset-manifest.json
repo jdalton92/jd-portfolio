@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.6c44ce58.chunk.css",
-    "main.js": "/static/js/main.ff2a960f.chunk.js",
-    "main.js.map": "/static/js/main.ff2a960f.chunk.js.map",
+    "main.css": "/static/css/main.79a0f4b8.chunk.css",
+    "main.js": "/static/js/main.c1c5a381.chunk.js",
+    "main.js.map": "/static/js/main.c1c5a381.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.bc2e365c.js",
     "runtime-main.js.map": "/static/js/runtime-main.bc2e365c.js.map",
     "static/js/2.ccf82521.chunk.js": "/static/js/2.ccf82521.chunk.js",
     "static/js/2.ccf82521.chunk.js.map": "/static/js/2.ccf82521.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.68f41b86b85c36d996feb4129c2b2313.js": "/precache-manifest.68f41b86b85c36d996feb4129c2b2313.js",
+    "precache-manifest.19d3bca43167c560fb12caed391efcca.js": "/precache-manifest.19d3bca43167c560fb12caed391efcca.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.6c44ce58.chunk.css.map": "/static/css/main.6c44ce58.chunk.css.map",
+    "static/css/main.79a0f4b8.chunk.css.map": "/static/css/main.79a0f4b8.chunk.css.map",
     "static/js/2.ccf82521.chunk.js.LICENSE.txt": "/static/js/2.ccf82521.chunk.js.LICENSE.txt",
-    "static/media/flogs-desktop.jfif": "/static/media/flogs-desktop.f2a8feaf.jfif",
+    "static/media/flogs-desktop.png": "/static/media/flogs-desktop.092cf8db.png",
+    "static/media/flogs-mobile.png": "/static/media/flogs-mobile.1bb29e38.png",
     "static/media/landing.css": "/static/media/linkedin.619231ff.svg",
     "static/media/jamesdaltonio-mobile.png": "/static/media/jamesdaltonio-mobile.f73308c5.png",
     "static/media/jamesdaltonio.png": "/static/media/jamesdaltonio.d37f095d.png",
@@ -20,12 +21,13 @@
     "static/media/moocs.jfif": "/static/media/moocs.5239fb1c.jfif",
     "static/media/property-investor-dash(2).png": "/static/media/property-investor-dash(2).dd0b6a22.png",
     "static/media/property-investor-dash-mobile.png": "/static/media/property-investor-dash-mobile.b7a37cd0.png",
-    "static/media/react-trello-clone-desktop.jfif": "/static/media/react-trello-clone-desktop.f2a8feaf.jfif"
+    "static/media/react-trello-clone-desktop.png": "/static/media/react-trello-clone-desktop.8759e4c4.png",
+    "static/media/react-trello-clone-mobile.png": "/static/media/react-trello-clone-mobile.91ed786d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.bc2e365c.js",
     "static/js/2.ccf82521.chunk.js",
-    "static/css/main.6c44ce58.chunk.css",
-    "static/js/main.ff2a960f.chunk.js"
+    "static/css/main.79a0f4b8.chunk.css",
+    "static/js/main.c1c5a381.chunk.js"
   ]
 }

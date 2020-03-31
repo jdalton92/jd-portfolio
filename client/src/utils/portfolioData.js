@@ -3,10 +3,10 @@ import propertyInvestorDashDesktopImage from "../components/styles/images/proper
 import propertyInvestorDashMobileImage from "../components/styles/images/property-investor-dash-mobile.png";
 import jamesDaltonIoDesktopImage from "../components/styles/images/jamesdaltonio.png";
 import jamesDaltonIoMobileImage from "../components/styles/images/jamesdaltonio-mobile.png";
-import reactTrelloCloneDesktopImage from "../components/styles/images/react-trello-clone-desktop.jfif";
-import reactTrelloCloneMobileImage from "../components/styles/images/react-trello-clone-mobile.jpg";
-import flogsDesktopImage from "../components/styles/images/flogs-desktop.jfif";
-import flogsMobileImage from "../components/styles/images/flogs-mobile.jpg";
+import reactTrelloCloneDesktopImage from "../components/styles/images/react-trello-clone-desktop.png";
+import reactTrelloCloneMobileImage from "../components/styles/images/react-trello-clone-mobile.png";
+import flogsDesktopImage from "../components/styles/images/flogs-desktop.png";
+import flogsMobileImage from "../components/styles/images/flogs-mobile.png";
 import moocsDesktopImage from "../components/styles/images/moocs.jfif";
 import moocsMobileImage from "../components/styles/images/moocs-mobile.jpg";
 
@@ -36,7 +36,8 @@ export const propertyInvestorDash = {
       website:
         "Digital Ocean with Nginx reverse proxy, and SSL encryption with LetsEncrypt"
     }
-  }
+  },
+  github: "https://github.com/jdalton92/property-investor-dash"
 };
 
 export const jamesDaltionIo = {
@@ -65,7 +66,8 @@ export const jamesDaltionIo = {
       website:
         "Digital Ocean with Nginx reverse proxy, and SSL encryption with LetsEncrypt"
     }
-  }
+  },
+  github: "https://github.com/jdalton92/jd-portfolio"
 };
 
 export const flogs = {
@@ -80,7 +82,9 @@ export const flogs = {
       <span>
         flogs.me started as a finance blog (flog) and has expanded to be a
         lifestyle blog for posting content from different contributors in
-        different topics including money, fitness, lifestyle, art, and more
+        different topics including money, fitness, lifestyle, art, and more.
+        Content is currently being compiled and development of the site is
+        ongoing, with plan to launch in Q2 2020
       </span>
     </div>
   ),
@@ -94,7 +98,8 @@ export const flogs = {
       website:
         "Digital Ocean with Nginx reverse proxy, and SSL encryption with LetsEncrypt"
     }
-  }
+  },
+  github: "https://github.com/jdalton92/flogs.me"
 };
 
 export const reactTrelloClone = {
@@ -107,9 +112,10 @@ export const reactTrelloClone = {
   description: (
     <div className="reacttrelloclone-description">
       <span>
-        React Trello Clone is a recreation of a minimal Trello clone with
-        React/Redux, that I've built to use as a personal tool for tracking app
-        development, and to test different UI/UX concepts
+        React Trello Clone is a minimal Trello clone with a personalised
+        interface made with React/Redux. I've prototyped this to use for
+        tracking my app development, and to test different UI/UX concepts.
+        Launching planned for Q2 2020
       </span>
     </div>
   ),
@@ -123,7 +129,8 @@ export const reactTrelloClone = {
       website:
         "Digital Ocean with Nginx reverse proxy, and SSL encryption with LetsEncrypt"
     }
-  }
+  },
+  github: "https://github.com/jdalton92/react-trello-clone"
 };
 
 export const moocs = {
@@ -205,5 +212,6 @@ export const moocs = {
       database: "AtlasDB & Amazon Web Services (AWS)",
       website: "Heroku"
     }
-  }
+  },
+  github: "https://github.com/jdalton92"
 };
