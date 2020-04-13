@@ -1,33 +1,33 @@
 {
   "files": {
-    "main.css": "/static/css/main.79a0f4b8.chunk.css",
-    "main.js": "/static/js/main.c1c5a381.chunk.js",
-    "main.js.map": "/static/js/main.c1c5a381.chunk.js.map",
+    "main.css": "/static/css/main.37ceb944.chunk.css",
+    "main.js": "/static/js/main.243c568a.chunk.js",
+    "main.js.map": "/static/js/main.243c568a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.bc2e365c.js",
     "runtime-main.js.map": "/static/js/runtime-main.bc2e365c.js.map",
-    "static/js/2.ccf82521.chunk.js": "/static/js/2.ccf82521.chunk.js",
-    "static/js/2.ccf82521.chunk.js.map": "/static/js/2.ccf82521.chunk.js.map",
+    "static/js/2.04860285.chunk.js": "/static/js/2.04860285.chunk.js",
+    "static/js/2.04860285.chunk.js.map": "/static/js/2.04860285.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.19d3bca43167c560fb12caed391efcca.js": "/precache-manifest.19d3bca43167c560fb12caed391efcca.js",
+    "precache-manifest.89fc407633c360dad63366e915e25f49.js": "/precache-manifest.89fc407633c360dad63366e915e25f49.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.79a0f4b8.chunk.css.map": "/static/css/main.79a0f4b8.chunk.css.map",
-    "static/js/2.ccf82521.chunk.js.LICENSE.txt": "/static/js/2.ccf82521.chunk.js.LICENSE.txt",
-    "static/media/flogs-desktop.png": "/static/media/flogs-desktop.092cf8db.png",
-    "static/media/flogs-mobile.png": "/static/media/flogs-mobile.1bb29e38.png",
+    "static/css/main.37ceb944.chunk.css.map": "/static/css/main.37ceb944.chunk.css.map",
+    "static/js/2.04860285.chunk.js.LICENSE.txt": "/static/js/2.04860285.chunk.js.LICENSE.txt",
+    "static/media/flogs-desktop.png": "/static/media/flogs-desktop.52dde119.png",
+    "static/media/flogs-mobile.png": "/static/media/flogs-mobile.e18baa63.png",
     "static/media/landing.css": "/static/media/linkedin.619231ff.svg",
+    "static/media/jamesdaltonio-desktop.png": "/static/media/jamesdaltonio-desktop.d37f095d.png",
     "static/media/jamesdaltonio-mobile.png": "/static/media/jamesdaltonio-mobile.f73308c5.png",
-    "static/media/jamesdaltonio.png": "/static/media/jamesdaltonio.d37f095d.png",
+    "static/media/moocs-desktop.jfif": "/static/media/moocs-desktop.5239fb1c.jfif",
     "static/media/moocs-mobile.jpg": "/static/media/moocs-mobile.f1fee554.jpg",
-    "static/media/moocs.jfif": "/static/media/moocs.5239fb1c.jfif",
-    "static/media/property-investor-dash(2).png": "/static/media/property-investor-dash(2).dd0b6a22.png",
     "static/media/property-investor-dash-mobile.png": "/static/media/property-investor-dash-mobile.b7a37cd0.png",
-    "static/media/react-trello-clone-desktop.png": "/static/media/react-trello-clone-desktop.8759e4c4.png",
-    "static/media/react-trello-clone-mobile.png": "/static/media/react-trello-clone-mobile.91ed786d.png"
+    "static/media/property-investor-dash.png": "/static/media/property-investor-dash.dd0b6a22.png",
+    "static/media/react-trello-clone-desktop.png": "/static/media/react-trello-clone-desktop.ba052ee6.png",
+    "static/media/react-trello-clone-mobile.png": "/static/media/react-trello-clone-mobile.8b944bdd.png"
   },
   "entrypoints": [
     "static/js/runtime-main.bc2e365c.js",
-    "static/js/2.ccf82521.chunk.js",
-    "static/css/main.79a0f4b8.chunk.css",
-    "static/js/main.c1c5a381.chunk.js"
+    "static/js/2.04860285.chunk.js",
+    "static/css/main.37ceb944.chunk.css",
+    "static/js/main.243c568a.chunk.js"
   ]
 }

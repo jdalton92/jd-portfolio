@@ -1,13 +1,13 @@
 import React from "react";
-import propertyInvestorDashDesktopImage from "../components/styles/images/property-investor-dash(2).png";
+import propertyInvestorDashDesktopImage from "../components/styles/images/property-investor-dash.png";
 import propertyInvestorDashMobileImage from "../components/styles/images/property-investor-dash-mobile.png";
-import jamesDaltonIoDesktopImage from "../components/styles/images/jamesdaltonio.png";
+import jamesDaltonIoDesktopImage from "../components/styles/images/jamesdaltonio-desktop.png";
 import jamesDaltonIoMobileImage from "../components/styles/images/jamesdaltonio-mobile.png";
 import reactTrelloCloneDesktopImage from "../components/styles/images/react-trello-clone-desktop.png";
 import reactTrelloCloneMobileImage from "../components/styles/images/react-trello-clone-mobile.png";
 import flogsDesktopImage from "../components/styles/images/flogs-desktop.png";
 import flogsMobileImage from "../components/styles/images/flogs-mobile.png";
-import moocsDesktopImage from "../components/styles/images/moocs.jfif";
+import moocsDesktopImage from "../components/styles/images/moocs-desktop.jfif";
 import moocsMobileImage from "../components/styles/images/moocs-mobile.jpg";
 
 export const propertyInvestorDash = {
@@ -15,7 +15,7 @@ export const propertyInvestorDash = {
   url: "www.propertyinvestordash.com",
   image: {
     desktop: propertyInvestorDashDesktopImage,
-    mobile: propertyInvestorDashMobileImage
+    mobile: propertyInvestorDashMobileImage,
   },
   description: (
     <div className="propertyinvestordash-description">
@@ -34,10 +34,10 @@ export const propertyInvestorDash = {
     hosting: {
       database: "AtlasDB with Amazon Web Services (AWS)",
       website:
-        "Digital Ocean with Nginx reverse proxy, and SSL encryption with LetsEncrypt"
-    }
+        "Digital Ocean with Nginx reverse proxy, and SSL encryption with LetsEncrypt",
+    },
   },
-  github: "https://github.com/jdalton92/property-investor-dash"
+  github: "https://github.com/jdalton92/property-investor-dash",
 };
 
 export const jamesDaltionIo = {
@@ -45,7 +45,7 @@ export const jamesDaltionIo = {
   url: "www.jamesdalton.io",
   image: {
     desktop: jamesDaltonIoDesktopImage,
-    mobile: jamesDaltonIoMobileImage
+    mobile: jamesDaltonIoMobileImage,
   },
   description: (
     <div className="jamesdaltonio-description">
@@ -58,16 +58,16 @@ export const jamesDaltionIo = {
   ),
   tech: {
     frontend:
-      "HTML, CSS/SCSS, React (16.8+), React Hooks, Axios. JavaScript ES5/6 with try/catch blocks and async/await",
+      "HTML, CSS/SCSS, React (16.8+), state management with React context hooks, Axios. JavaScript ES5/6 with try/catch blocks and async/await",
     backend: "Node, Express, Mongoose, MongoDB",
     api: "REST",
     hosting: {
       database: "AtlasDB with Amazon Web Services (AWS)",
       website:
-        "Digital Ocean with Nginx reverse proxy, and SSL encryption with LetsEncrypt"
-    }
+        "Digital Ocean with Nginx reverse proxy, and SSL encryption with LetsEncrypt",
+    },
   },
-  github: "https://github.com/jdalton92/jd-portfolio"
+  github: "https://github.com/jdalton92/jd-portfolio",
 };
 
 export const flogs = {
@@ -75,7 +75,7 @@ export const flogs = {
   url: "www.flogs.me",
   image: {
     desktop: flogsDesktopImage,
-    mobile: flogsMobileImage
+    mobile: flogsMobileImage,
   },
   description: (
     <div className="flogs-description">
@@ -83,23 +83,22 @@ export const flogs = {
         flogs.me started as a finance blog (flog) and has expanded to be a
         lifestyle blog for posting content from different contributors in
         different topics including money, fitness, lifestyle, art, and more.
-        Content is currently being compiled and development of the site is
-        ongoing, with plan to launch in Q2 2020
+        Content for flogs.me is continually being expanded
       </span>
     </div>
   ),
   tech: {
     frontend:
-      "HTML, CSS/SCSS, React (16.8+), React Hooks, Axios. JavaScript ES5/6 with try/catch blocks and async/await",
+      "HTML, CSS/SCSS, React (16.8+), state management with React context hooks, Apollo Client, Axios. JavaScript ES5/6 with try/catch blocks and async/await",
     backend: "Node, Express, Mongoose, MongoDB",
-    api: "REST",
+    api: "GraphQL with Apollo Server",
     hosting: {
       database: "AtlasDB with Amazon Web Services (AWS)",
       website:
-        "Digital Ocean with Nginx reverse proxy, and SSL encryption with LetsEncrypt"
-    }
+        "Digital Ocean with Nginx reverse proxy, and SSL encryption with LetsEncrypt",
+    },
   },
-  github: "https://github.com/jdalton92/flogs.me"
+  github: "https://github.com/jdalton92/flogs.me",
 };
 
 export const reactTrelloClone = {
@@ -107,15 +106,15 @@ export const reactTrelloClone = {
   url: "reacttrelloclone.herokuapp.com",
   image: {
     desktop: reactTrelloCloneDesktopImage,
-    mobile: reactTrelloCloneMobileImage
+    mobile: reactTrelloCloneMobileImage,
   },
   description: (
     <div className="reacttrelloclone-description">
       <span>
-        React Trello Clone is a minimal Trello clone with a personalised
-        interface made with React/Redux. I've prototyped this to use for
-        tracking my app development, and to test different UI/UX concepts.
-        Launching planned for Q2 2020
+        React Trello Clone is a minimal responsive web application used as a
+        Trello clone with a personalised interface made with React/Redux. I
+        prototyped this application to use for tracking my web app development,
+        and to test different UI/UX concepts.
       </span>
     </div>
   ),
@@ -127,10 +126,10 @@ export const reactTrelloClone = {
     hosting: {
       database: "AtlasDB with Amazon Web Services (AWS)",
       website:
-        "Digital Ocean with Nginx reverse proxy, and SSL encryption with LetsEncrypt"
-    }
+        "Digital Ocean with Nginx reverse proxy, and SSL encryption with LetsEncrypt",
+    },
   },
-  github: "https://github.com/jdalton92/react-trello-clone"
+  github: "https://github.com/jdalton92/react-trello-clone",
 };
 
 export const moocs = {
@@ -138,7 +137,7 @@ export const moocs = {
   url: "https://github.com/jdalton92",
   image: {
     desktop: moocsDesktopImage,
-    mobile: moocsMobileImage
+    mobile: moocsMobileImage,
   },
   description: (
     <div className="mooc-table">
@@ -210,8 +209,8 @@ export const moocs = {
     other: "Python (matplotlib), Octave, Matlab",
     hosting: {
       database: "AtlasDB & Amazon Web Services (AWS)",
-      website: "Heroku"
-    }
+      website: "Heroku",
+    },
   },
-  github: "https://github.com/jdalton92"
+  github: "https://github.com/jdalton92",
 };

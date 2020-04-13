@@ -1,5 +1,6 @@
 import React from "react";
-import "fullpage.js/vendors/scrolloverflow"; // Optional. When using scrollOverflow:true
+// Optional. When using scrollOverflow:true
+// import "fullpage.js/vendors/scrolloverflow";
 import ReactFullpage from "@fullpage/react-fullpage";
 import Landing from "./Landing";
 import About from "./About";
@@ -10,7 +11,6 @@ const FullPage = () => {
   const anchors = ["home", "about", "portfolio", "contact"];
   return (
     <ReactFullpage
-      scrollOverflow="true"
       paddingTop="25px"
       licenseKey={"1DF28CA2-C668452E-AED10A3B-E4A7A153"}
       anchors={anchors}
@@ -20,9 +20,6 @@ const FullPage = () => {
       navigation
       navigationTooltips={anchors}
       sectionsColor={["#282c34", "#b3bbbb", "#94958B", "#B7B6C1"]}
-      // onLeave={(origin, destination, direction) => {
-      //   console.log("onLeave event", { origin, destination, direction });
-      // }}
       render={({ fullpageApi }) => (
         <>
           <Landing api={fullpageApi} />
