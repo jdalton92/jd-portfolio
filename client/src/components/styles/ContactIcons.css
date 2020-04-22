@@ -1,0 +1,34 @@
+.contact-icon {
+  height: 30px;
+  width: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  z-index: 2;
+  background-color: rgb(90, 88, 88);
+}
+
+.linkedin-icon {
+  -webkit-mask: url(./images/linkedin.svg) no-repeat center;
+  mask: url(./images/linkedin.svg) no-repeat center;
+}
+.github-icon {
+  -webkit-mask: url(./images/github.svg) no-repeat center;
+  mask: url(./images/github.svg) no-repeat center;
+}
+.gmail-icon {
+  -webkit-mask: url(./images/gmail.svg) no-repeat center;
+  mask: url(./images/gmail.svg) no-repeat center;
+}
+.devto-icon {
+  -webkit-mask: url(./images/devto.svg) no-repeat center;
+  mask: url(./images/devto.svg) no-repeat center;
+}
+.stackoverflow-icon {
+  -webkit-mask: url(./images/stackoverflow.svg) no-repeat center;
+  mask: url(./images/stackoverflow.svg) no-repeat center;
+}
+
+.contact-icon:hover {
+  cursor: pointer;
+  background-color: white;
+}

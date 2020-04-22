@@ -19,7 +19,7 @@ const FullPage = () => {
       }
       navigation
       navigationTooltips={anchors}
-      sectionsColor={["#282c34", "#b3bbbb", "#94958B", "#B7B6C1"]}
+      sectionsColor={["#282c34", "#282c34", "#94958B", "#B7B6C1"]}
       render={({ fullpageApi }) => (
         <>
           <Landing api={fullpageApi} />

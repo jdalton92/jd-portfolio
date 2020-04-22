@@ -6,7 +6,7 @@ const PortfolioItem = ({ data }) => {
   const { setNotification } = useContext(NotificationContext);
   const [view, setView] = useState("image");
 
-  const alert = e => {
+  const alert = (e) => {
     e.preventDefault();
     setNotification("Nothing happened");
   };

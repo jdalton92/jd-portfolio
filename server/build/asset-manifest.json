@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.37ceb944.chunk.css",
-    "main.js": "/static/js/main.243c568a.chunk.js",
-    "main.js.map": "/static/js/main.243c568a.chunk.js.map",
+    "main.css": "/static/css/main.7376639d.chunk.css",
+    "main.js": "/static/js/main.82f62314.chunk.js",
+    "main.js.map": "/static/js/main.82f62314.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.bc2e365c.js",
     "runtime-main.js.map": "/static/js/runtime-main.bc2e365c.js.map",
-    "static/js/2.04860285.chunk.js": "/static/js/2.04860285.chunk.js",
-    "static/js/2.04860285.chunk.js.map": "/static/js/2.04860285.chunk.js.map",
+    "static/js/2.dc40a429.chunk.js": "/static/js/2.dc40a429.chunk.js",
+    "static/js/2.dc40a429.chunk.js.map": "/static/js/2.dc40a429.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.89fc407633c360dad63366e915e25f49.js": "/precache-manifest.89fc407633c360dad63366e915e25f49.js",
+    "precache-manifest.43e56e07c0c2b28cc42c6623d0540b7a.js": "/precache-manifest.43e56e07c0c2b28cc42c6623d0540b7a.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.37ceb944.chunk.css.map": "/static/css/main.37ceb944.chunk.css.map",
-    "static/js/2.04860285.chunk.js.LICENSE.txt": "/static/js/2.04860285.chunk.js.LICENSE.txt",
+    "static/css/main.7376639d.chunk.css.map": "/static/css/main.7376639d.chunk.css.map",
+    "static/js/2.dc40a429.chunk.js.LICENSE.txt": "/static/js/2.dc40a429.chunk.js.LICENSE.txt",
+    "static/media/ContactIcons.css": "/static/media/stackoverflow.f681cd5f.svg",
     "static/media/flogs-desktop.png": "/static/media/flogs-desktop.52dde119.png",
     "static/media/flogs-mobile.png": "/static/media/flogs-mobile.e18baa63.png",
-    "static/media/landing.css": "/static/media/linkedin.619231ff.svg",
     "static/media/jamesdaltonio-desktop.png": "/static/media/jamesdaltonio-desktop.d37f095d.png",
     "static/media/jamesdaltonio-mobile.png": "/static/media/jamesdaltonio-mobile.f73308c5.png",
+    "static/media/landing.css": "/static/media/landing-background-mobile.2d17e623.jpg",
     "static/media/moocs-desktop.jfif": "/static/media/moocs-desktop.5239fb1c.jfif",
     "static/media/moocs-mobile.jpg": "/static/media/moocs-mobile.f1fee554.jpg",
     "static/media/property-investor-dash-mobile.png": "/static/media/property-investor-dash-mobile.b7a37cd0.png",
@@ -26,8 +27,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.bc2e365c.js",
-    "static/js/2.04860285.chunk.js",
-    "static/css/main.37ceb944.chunk.css",
-    "static/js/main.243c568a.chunk.js"
+    "static/js/2.dc40a429.chunk.js",
+    "static/css/main.7376639d.chunk.css",
+    "static/js/main.82f62314.chunk.js"
   ]
 }

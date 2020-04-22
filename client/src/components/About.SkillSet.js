@@ -1,74 +1,28 @@
 import React from "react";
+import SkillSetSkill from "./About.SkillSet.Skill";
+import Fade from "react-reveal/Fade";
 
 const Skillset = () => {
   return (
     <>
       <div className="about-block">
-        <h4 className="about-subheader">SKILL SET</h4>
-        <h5 className="about-subheader-2">
-          1 star (beginner) to 5 star (expert)
-        </h5>
-        <div className="about-block about-table">
-          <table className="about-table-left">
-            <tbody>
-              <tr>
-                <td>HTML</td>
-                <td className="about-stars">★★★☆☆</td>
-              </tr>
-              <tr>
-                <td>CSS</td>
-                <td className="about-stars">★★★☆☆</td>
-              </tr>
-              <tr>
-                <td>jQuery</td>
-                <td className="about-stars">★★☆☆☆</td>
-              </tr>
-              <tr>
-                <td>React</td>
-                <td className="about-stars">★★★☆☆</td>
-              </tr>
-              <tr>
-                <td>Node</td>
-                <td className="about-stars">★★★☆☆</td>
-              </tr>
-              <tr>
-                <td>Python (Flask)</td>
-                <td className="about-stars">★★☆☆☆</td>
-              </tr>
-              <tr>
-                <td>Python (Django)</td>
-                <td className="about-stars">★★☆☆☆</td>
-              </tr>
-            </tbody>
-          </table>
-          <table className="about-table-right">
-            <tbody>
-              <tr>
-                <td>C</td>
-                <td className="about-stars">★☆☆☆☆</td>
-              </tr>
-              <tr>
-                <td>C++</td>
-                <td className="about-stars">★☆☆☆☆</td>
-              </tr>
-              <tr>
-                <td>VBA</td>
-                <td className="about-stars">★★★☆☆</td>
-              </tr>
-              <tr>
-                <td>SQL</td>
-                <td className="about-stars">★★★☆☆</td>
-              </tr>
-              <tr>
-                <td>MongoDB</td>
-                <td className="about-stars">★★★☆☆</td>
-              </tr>
-              <tr>
-                <td>GitHub</td>
-                <td className="about-stars">★★★☆☆</td>
-              </tr>
-            </tbody>
-          </table>
+        <Fade top>
+          <h4 className="about-subheader">SKILL SET</h4>
+        </Fade>
+        <div className="skill-body-wrapper">
+          <div className="skill-table">
+            <SkillSetSkill name={"HTML"} rating={65} />
+            <SkillSetSkill name={"CSS"} rating={65} />
+            <SkillSetSkill name={"JavaScript"} rating={70} />
+            <SkillSetSkill name={"React"} rating={60} />
+            <SkillSetSkill name={"Node"} rating={60} />
+            <SkillSetSkill name={"Python"} rating={40} />
+            <SkillSetSkill name={"SQL"} rating={35} />
+            <SkillSetSkill name={"MongoDB"} rating={50} />
+            <SkillSetSkill name={"jQuery"} rating={30} />
+            <SkillSetSkill name={"C"} rating={20} />
+            <SkillSetSkill name={"C++"} rating={15} />
+          </div>
         </div>
       </div>
     </>

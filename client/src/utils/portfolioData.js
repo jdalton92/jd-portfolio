@@ -125,8 +125,7 @@ export const reactTrelloClone = {
     api: "REST",
     hosting: {
       database: "AtlasDB with Amazon Web Services (AWS)",
-      website:
-        "Digital Ocean with Nginx reverse proxy, and SSL encryption with LetsEncrypt",
+      website: "Heroku",
     },
   },
   github: "https://github.com/jdalton92/react-trello-clone",

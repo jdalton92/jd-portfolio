@@ -4,6 +4,7 @@ import SkillSet from "./About.SkillSet";
 import SDLC from "./About.SDLC";
 import ProfessionalHistory from "./About.ProfessionalHistory";
 import Other from "./About.Other";
+import Slide from "react-reveal/Slide";
 import "./styles/about.css";
 
 const About = ({ api }) => {
@@ -35,52 +36,56 @@ const About = ({ api }) => {
         </div>
         <div className="about-body">
           <div className="about-left">
-            <div className="about-nav">
-              <div
-                className={`about-nav-item ${
-                  content === "education" ? "selected" : ""
-                }`}
-                onClick={() => setContent("education")}
-              >
-                Education
+            <Slide left cascade>
+              <div className="about-nav">
+                <div
+                  className={`about-nav-item ${
+                    content === "education" ? "selected" : ""
+                  }`}
+                  onClick={() => setContent("education")}
+                >
+                  Education
+                </div>
+                <div
+                  className={`about-nav-item ${
+                    content === "skillSet" ? "selected" : ""
+                  }`}
+                  onClick={() => setContent("skillSet")}
+                >
+                  Skill Set
+                </div>
+                <div
+                  className={`about-nav-item ${
+                    content === "sldc" ? "selected" : ""
+                  }`}
+                  onClick={() => setContent("sldc")}
+                >
+                  SDLC Experience
+                </div>
+                <div
+                  className={`about-nav-item ${
+                    content === "professionalHistory" ? "selected" : ""
+                  }`}
+                  onClick={() => setContent("professionalHistory")}
+                >
+                  Professional History
+                </div>
+                <div
+                  className={`about-nav-item ${
+                    content === "other" ? "selected" : ""
+                  }`}
+                  onClick={() => setContent("other")}
+                >
+                  Other
+                </div>
               </div>
-              <div
-                className={`about-nav-item ${
-                  content === "skillSet" ? "selected" : ""
-                }`}
-                onClick={() => setContent("skillSet")}
-              >
-                Skill Set
-              </div>
-              <div
-                className={`about-nav-item ${
-                  content === "sldc" ? "selected" : ""
-                }`}
-                onClick={() => setContent("sldc")}
-              >
-                SDLC Experience
-              </div>
-              <div
-                className={`about-nav-item ${
-                  content === "professionalHistory" ? "selected" : ""
-                }`}
-                onClick={() => setContent("professionalHistory")}
-              >
-                Professional History
-              </div>
-              <div
-                className={`about-nav-item ${
-                  content === "other" ? "selected" : ""
-                }`}
-                onClick={() => setContent("other")}
-              >
-                Other
-              </div>
+            </Slide>
+          </div>
+          <Slide right>
+            <div className="about-right">
+              <div className="about-right-content">{aboutInfo}</div>
             </div>
-          </div>
-          <div className="about-right">
-            <div className="about-right-content">{aboutInfo}</div>
-          </div>
+          </Slide>
         </div>
       </div>
     </div>

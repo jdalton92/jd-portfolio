@@ -1,3 +1,17 @@
+.background-image {
+  filter: blur(1.5px);
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100vh;
+  background-image: url(./images/landing-background-desktop.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5;
+}
+
 .landing-container {
   position: absolute;
   top: 0px;
@@ -36,7 +50,8 @@
 
 .landing-header-top,
 .landing-header-bottom {
-  color: rgb(90, 88, 88);
+  /* color: rgb(90, 88, 88); */
+  color: rgba(255, 255, 255, 0.7);
   font-size: 8rem;
   position: relative;
   display: flex;
@@ -92,33 +107,6 @@
   display: flex;
   justify-content: center;
   align-items: flex-end;
-}
-
-.contact-icon {
-  height: 30px;
-  width: 30px;
-  padding-left: 20px;
-  padding-right: 20px;
-  z-index: 2;
-  background-color: rgb(90, 88, 88);
-}
-
-.linkedin-icon {
-  -webkit-mask: url(./images/linkedin.svg) no-repeat center;
-  mask: url(./images/linkedin.svg) no-repeat center;
-}
-.github-icon {
-  -webkit-mask: url(./images/github.svg) no-repeat center;
-  mask: url(./images/github.svg) no-repeat center;
-}
-.gmail-icon {
-  -webkit-mask: url(./images/gmail.svg) no-repeat center;
-  mask: url(./images/gmail.svg) no-repeat center;
-}
-
-.contact-icon:hover {
-  cursor: pointer;
-  background-color: white;
 }
 
 .arrow-container:hover {
@@ -188,6 +176,10 @@
 }
 
 @media screen and (max-width: 768px) {
+  .background-image {
+    background-image: url(./images/landing-background-mobile.jpg);
+  }
+
   .landing-container,
   .landing-header {
     padding: 0px !important;

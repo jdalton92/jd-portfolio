@@ -1,7 +1,7 @@
 import React from "react";
 
 const PortfolioContent = ({ data, view }) => {
-  const handleLiveLink = e => {
+  const handleLiveLink = (e) => {
     e.preventDefault();
     const win = window.open("http://" + data.url);
     if (win != null) {
@@ -9,7 +9,7 @@ const PortfolioContent = ({ data, view }) => {
     }
   };
 
-  const handleGitHubLink = e => {
+  const handleGitHubLink = (e) => {
     e.preventDefault();
     const win = window.open(data.github);
     if (win != null) {
@@ -39,11 +39,15 @@ const PortfolioContent = ({ data, view }) => {
             className="portfolio-image-mobile"
           />
           <div className="portfolio-link-container">
-            <div className="portfolio-item-url" onClick={handleLiveLink}>
-              View Site
+            <div className="portfolio-url-wrapper">
+              <button className="portfolio-item-url" onClick={handleLiveLink}>
+                View Site
+              </button>
             </div>
-            <div className="portfolio-item-url" onClick={handleGitHubLink}>
-              GitHub repo
+            <div className="portfolio-url-wrapper">
+              <button className="portfolio-item-url" onClick={handleGitHubLink}>
+                GitHub repo
+              </button>
             </div>
           </div>
         </div>

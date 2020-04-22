@@ -9,15 +9,15 @@ emailRouter.post("/", async (request, response, next) => {
 
     if (!fullName || !email || !message) {
       return response.status(400).send({
-        error: "Full name, email, and message required"
+        error: "Full name, email, and message required",
       });
     }
 
     const auth = {
       auth: {
         api_key: process.env.API_KEY,
-        domain: process.env.DOMAIN
-      }
+        domain: process.env.DOMAIN,
+      },
     };
 
     const transporter = nodemailer.createTransport(mailGun(auth));
@@ -30,15 +30,16 @@ emailRouter.post("/", async (request, response, next) => {
       Date: ${date}
       Name: ${fullName}
       Email: ${email}
-       Message: 
+      
+      Message: 
       ${message}
-      `
+      `,
     };
 
     await transporter.sendMail(mailOptions);
 
     response.status(200).send({
-      message: "Email sent"
+      message: "Email sent",
     });
   } catch (e) {
     next(e);
