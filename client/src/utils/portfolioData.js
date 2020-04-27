@@ -12,7 +12,7 @@ import moocsMobileImage from "../components/styles/images/moocs-mobile.jpg";
 
 export const propertyInvestorDash = {
   title: "PropertyInvestorDASH",
-  url: "www.propertyinvestordash.com",
+  url: "https://propertyinvestordash.com",
   image: {
     desktop: propertyInvestorDashDesktopImage,
     mobile: propertyInvestorDashMobileImage,
@@ -42,7 +42,7 @@ export const propertyInvestorDash = {
 
 export const jamesDaltionIo = {
   title: "jamesdalton.io",
-  url: "www.jamesdalton.io",
+  url: "https://jamesdalton.io",
   image: {
     desktop: jamesDaltonIoDesktopImage,
     mobile: jamesDaltonIoMobileImage,
@@ -72,7 +72,7 @@ export const jamesDaltionIo = {
 
 export const flogs = {
   title: "flogs.me",
-  url: "www.flogs.me",
+  url: "https://flogs.me",
   image: {
     desktop: flogsDesktopImage,
     mobile: flogsMobileImage,
@@ -83,7 +83,9 @@ export const flogs = {
         flogs.me started as a finance blog (flog) and has expanded to be a
         lifestyle blog for posting content from different contributors in
         different topics including money, fitness, lifestyle, art, and more.
-        Content for flogs.me is continually being expanded
+        Content for flogs.me is continually being expanded, and maintained by a
+        custom content management system (CMS) that I developed specifically for
+        flogs.me
       </span>
     </div>
   ),
@@ -103,7 +105,7 @@ export const flogs = {
 
 export const reactTrelloClone = {
   title: "React Trello Clone",
-  url: "reacttrelloclone.herokuapp.com",
+  url: "http://reacttrelloclone.herokuapp.com",
   image: {
     desktop: reactTrelloCloneDesktopImage,
     mobile: reactTrelloCloneMobileImage,

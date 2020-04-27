@@ -7,7 +7,6 @@ import {
   moocs,
 } from "../utils/portfolioData";
 import PortfolioItem from "./PortfolioItem";
-import Fade from "react-reveal/Fade";
 import "./styles/portfolio.css";
 
 const Portfolio = () => {

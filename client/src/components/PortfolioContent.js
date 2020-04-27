@@ -3,7 +3,7 @@ import React from "react";
 const PortfolioContent = ({ data, view }) => {
   const handleLiveLink = (e) => {
     e.preventDefault();
-    const win = window.open("http://" + data.url);
+    const win = window.open(data.url);
     if (win != null) {
       win.focus();
     }
@@ -46,7 +46,7 @@ const PortfolioContent = ({ data, view }) => {
             </div>
             <div className="portfolio-url-wrapper">
               <button className="portfolio-item-url" onClick={handleGitHubLink}>
-                GitHub repo
+                GitHub Repo
               </button>
             </div>
           </div>

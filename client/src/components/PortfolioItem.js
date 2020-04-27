@@ -11,6 +11,14 @@ const PortfolioItem = ({ data }) => {
     setNotification("Nothing happened");
   };
 
+  const handleLink = (e) => {
+    e.preventDefault();
+    const win = window.open("http://" + data.url);
+    if (win != null) {
+      win.focus();
+    }
+  };
+
   return (
     <div className="slide">
       <div className="portfolio-item-container">
@@ -54,7 +62,9 @@ const PortfolioItem = ({ data }) => {
           <PortfolioContent data={data} view={view} />
         </div>
         <div className="portfolio-name-container">
-          <div className="portfolio-item-name">{data.title}</div>
+          <div onClick={handleLink} className="portfolio-item-name">
+            {data.title}
+          </div>
         </div>
       </div>
     </div>

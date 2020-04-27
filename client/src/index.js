@@ -7,10 +7,8 @@ import App from "./App";
 const rootElement = document.getElementById("root");
 
 ReactDOM.render(
-  <React.StrictMode>
-    <NotificationProvider>
-      <App />
-    </NotificationProvider>
-  </React.StrictMode>,
+  <NotificationProvider>
+    <App />
+  </NotificationProvider>,
   rootElement
 );

@@ -21,7 +21,7 @@ const Skillset = () => {
             <SkillSetSkill name={"MongoDB"} rating={50} />
             <SkillSetSkill name={"jQuery"} rating={30} />
             <SkillSetSkill name={"C"} rating={20} />
-            <SkillSetSkill name={"C++"} rating={15} />
+            <SkillSetSkill name={"C++"} rating={10} />
           </div>
         </div>
       </div>
