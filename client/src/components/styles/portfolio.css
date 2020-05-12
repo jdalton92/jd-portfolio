@@ -36,8 +36,9 @@
 }
 
 .portfolio-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   flex: 3;
-  padding-top: 10px;
+  margin-top: 10px;
   width: 70%;
   display: flex;
   justify-content: flex-start;
@@ -52,6 +53,7 @@
   justify-content: center;
   align-items: center;
   background-color: rgb(229, 228, 228);
+  overflow: hidden;
 }
 
 .portfolio-card-icons {
@@ -236,6 +238,7 @@ p {
 }
 
 .portfolio-item-name {
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
   text-align: center;
   font-size: 26px;
   font-weight: bold;
@@ -263,7 +266,8 @@ p {
 }
 
 .portfolio-item-url {
-  width: 125px;
+  height: 25px;
+  width: 100px;
   color: rgb(243, 243, 243);
   background-color: transparent;
   border-radius: 5px;
@@ -367,8 +371,6 @@ p {
   .moocs-image-mobile {
     display: initial;
     position: static;
-    box-shadow: -4px 4px 8px 0 rgba(0, 0, 0, 0.5),
-      -6px 6px 20px 0 rgba(0, 0, 0, 0.49);
   }
 
   .portfolio-image-mobile {
@@ -376,11 +378,6 @@ p {
     margin-bottom: 25px;
     width: auto;
     object-fit: contain;
-  }
-
-  .portfolio-tech-stack ul {
-    position: absolute;
-    top: 0px;
   }
 
   .mooc-table ul {

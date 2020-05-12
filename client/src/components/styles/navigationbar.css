@@ -17,6 +17,7 @@
 .navbar-logo {
   flex: 1;
   padding-left: 10px;
+  border-bottom: solid 3px transparent;
 }
 
 .navbar-logo-link:hover {
@@ -31,11 +32,19 @@
 }
 
 .navbar-item {
-  padding-left: 10px;
-  padding-right: 10px;
-  border-bottom: 3px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-bottom: solid 3px transparent;
 }
 
 .navbar-item:hover > a {
   color: purple;
+}
+
+.navbar-item.active-section:hover {
+  border-bottom-color: purple;
+}
+
+.active-section {
+  border-bottom: solid 3px white;
 }

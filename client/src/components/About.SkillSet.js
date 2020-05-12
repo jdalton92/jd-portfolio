@@ -13,7 +13,7 @@ const Skillset = () => {
           <div className="skill-table">
             <SkillSetSkill name={"HTML"} rating={65} />
             <SkillSetSkill name={"CSS"} rating={65} />
-            <SkillSetSkill name={"JavaScript"} rating={70} />
+            <SkillSetSkill name={"JavaScript"} rating={60} />
             <SkillSetSkill name={"React"} rating={60} />
             <SkillSetSkill name={"Node"} rating={60} />
             <SkillSetSkill name={"Python"} rating={40} />

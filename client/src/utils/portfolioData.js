@@ -1,13 +1,13 @@
 import React from "react";
-import propertyInvestorDashDesktopImage from "../components/styles/images/property-investor-dash.png";
-import propertyInvestorDashMobileImage from "../components/styles/images/property-investor-dash-mobile.png";
-import jamesDaltonIoDesktopImage from "../components/styles/images/jamesdaltonio-desktop.png";
-import jamesDaltonIoMobileImage from "../components/styles/images/jamesdaltonio-mobile.png";
-import reactTrelloCloneDesktopImage from "../components/styles/images/react-trello-clone-desktop.png";
-import reactTrelloCloneMobileImage from "../components/styles/images/react-trello-clone-mobile.png";
-import flogsDesktopImage from "../components/styles/images/flogs-desktop.png";
-import flogsMobileImage from "../components/styles/images/flogs-mobile.png";
-import moocsDesktopImage from "../components/styles/images/moocs-desktop.jfif";
+import propertyInvestorDashDesktopImage from "../components/styles/images/propertyinvestordash-desktop.jpg";
+import propertyInvestorDashMobileImage from "../components/styles/images/propertyinvestordash-mobile.jpg";
+import jamesDaltonIoDesktopImage from "../components/styles/images/jamesdaltonio-desktop.jpg";
+import jamesDaltonIoMobileImage from "../components/styles/images/jamesdaltonio-mobile.jpg";
+import reactTrelloCloneDesktopImage from "../components/styles/images/reacttrelloclone-desktop.jpg";
+import reactTrelloCloneMobileImage from "../components/styles/images/reacttrelloclone-mobile.jpg";
+import flogsDesktopImage from "../components/styles/images/flogs-desktop.jpg";
+import flogsMobileImage from "../components/styles/images/flogs-mobile.jpg";
+import moocsDesktopImage from "../components/styles/images/moocs-desktop.jpg";
 import moocsMobileImage from "../components/styles/images/moocs-mobile.jpg";
 
 export const propertyInvestorDash = {

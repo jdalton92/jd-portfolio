@@ -46,7 +46,7 @@ const PortfolioContent = ({ data, view }) => {
             </div>
             <div className="portfolio-url-wrapper">
               <button className="portfolio-item-url" onClick={handleGitHubLink}>
-                GitHub Repo
+                GitHub
               </button>
             </div>
           </div>

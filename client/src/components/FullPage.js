@@ -18,16 +18,19 @@ const FullPage = () => {
         ".about-right-content, .portfolio-description, .portfolio-tech-stack, .form-message, .form-input"
       }
       navigation
+      slidesNavigation
       navigationTooltips={anchors}
       sectionsColor={["#282c34", "#282c34", "#94958B", "#B7B6C1"]}
-      render={({ fullpageApi }) => (
-        <>
-          <Landing api={fullpageApi} />
-          <About api={fullpageApi} />
-          <Portfolio />
-          <Contact />
-        </>
-      )}
+      render={({ state, fullpageApi }) => {
+        return (
+          <>
+            <Landing api={fullpageApi} />
+            <About api={fullpageApi} />
+            <Portfolio />
+            <Contact />
+          </>
+        );
+      }}
     />
   );
 };

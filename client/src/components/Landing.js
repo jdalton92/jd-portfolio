@@ -13,9 +13,7 @@ const Landing = ({ api }) => {
             <div className="landing-header-top">{`( ) => {`}</div>
           </Fade>
           <Fade top>
-            <div className="landing-header-middle desktop">
-              {`jamesdalton.io`}
-            </div>
+            <h1 className="landing-header-middle desktop">jamesdalton.io</h1>
           </Fade>
           <Fade>
             <div className="landing-header-bottom">{`}`}</div>
