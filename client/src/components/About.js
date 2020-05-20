@@ -7,7 +7,7 @@ import Other from "./About.Other";
 import Slide from "react-reveal/Slide";
 import "./styles/about.css";
 
-const About = ({ api }) => {
+const About = () => {
   const [content, setContent] = useState("education");
 
   let aboutInfo;

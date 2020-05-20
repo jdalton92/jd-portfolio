@@ -43,6 +43,8 @@
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .portfolio-card-navbar {
@@ -135,6 +137,7 @@ p {
   align-items: center;
   justify-content: center;
   border-radius: 0px 0px 4px 4px;
+  overflow: hidden;
 }
 
 .portfolio-description,
@@ -154,7 +157,6 @@ p {
   justify-content: center;
   align-items: center;
   line-height: 1.5em;
-  position: relative;
 }
 
 .portfolio-tech-stack ul {
@@ -220,7 +222,7 @@ p {
 .portfolio-image-desktop {
   min-height: 85%;
   min-width: 70%;
-  margin-bottom: 20px;
+  padding-bottom: 30px;
   object-fit: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -378,6 +380,15 @@ p {
     margin-bottom: 25px;
     width: auto;
     object-fit: contain;
+  }
+
+  .portfolio-tech-stack {
+    justify-content: flex-start;
+  }
+
+  .portfolio-description span {
+    height: 95%;
+    padding: 5px;
   }
 
   .mooc-table ul {

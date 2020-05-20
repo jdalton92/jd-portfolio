@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.f551d1e6.chunk.css",
-    "main.js": "/static/js/main.c59aaa05.chunk.js",
-    "main.js.map": "/static/js/main.c59aaa05.chunk.js.map",
+    "main.css": "/static/css/main.1c91491b.chunk.css",
+    "main.js": "/static/js/main.026e54c0.chunk.js",
+    "main.js.map": "/static/js/main.026e54c0.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.bc2e365c.js",
     "runtime-main.js.map": "/static/js/runtime-main.bc2e365c.js.map",
     "static/js/2.4ea84cfe.chunk.js": "/static/js/2.4ea84cfe.chunk.js",
     "static/js/2.4ea84cfe.chunk.js.map": "/static/js/2.4ea84cfe.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.bbcbc861ccb17324be9249fcaeea5916.js": "/precache-manifest.bbcbc861ccb17324be9249fcaeea5916.js",
+    "precache-manifest.6f270bb0678bfa1ae625a5f093552051.js": "/precache-manifest.6f270bb0678bfa1ae625a5f093552051.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.f551d1e6.chunk.css.map": "/static/css/main.f551d1e6.chunk.css.map",
+    "static/css/main.1c91491b.chunk.css.map": "/static/css/main.1c91491b.chunk.css.map",
     "static/js/2.4ea84cfe.chunk.js.LICENSE.txt": "/static/js/2.4ea84cfe.chunk.js.LICENSE.txt",
     "static/media/ContactIcons.css": "/static/media/stackoverflow.f681cd5f.svg",
     "static/media/flogs-desktop.jpg": "/static/media/flogs-desktop.d353d329.jpg",
@@ -19,14 +19,14 @@
     "static/media/jamesdaltonio-mobile.jpg": "/static/media/jamesdaltonio-mobile.44d51b91.jpg",
     "static/media/landing.css": "/static/media/landing-background-mobile.004f3a75.jpg",
     "static/media/moocs-desktop.jpg": "/static/media/moocs-desktop.a2667469.jpg",
-    "static/media/propertyinvestordash-desktop.jpg": "/static/media/propertyinvestordash-desktop.1db0f29d.jpg",
+    "static/media/propertyinvestordash-desktop.jpg": "/static/media/propertyinvestordash-desktop.d701b8ed.jpg",
     "static/media/propertyinvestordash-mobile.jpg": "/static/media/propertyinvestordash-mobile.3b3f31a5.jpg",
     "static/media/reacttrelloclone-desktop.jpg": "/static/media/reacttrelloclone-desktop.0254e076.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.bc2e365c.js",
     "static/js/2.4ea84cfe.chunk.js",
-    "static/css/main.f551d1e6.chunk.css",
-    "static/js/main.c59aaa05.chunk.js"
+    "static/css/main.1c91491b.chunk.css",
+    "static/js/main.026e54c0.chunk.js"
   ]
 }

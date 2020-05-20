@@ -13,7 +13,7 @@ const PortfolioItem = ({ data }) => {
 
   const handleLink = (e) => {
     e.preventDefault();
-    const win = window.open("http://" + data.url);
+    const win = window.open(data.url);
     if (win != null) {
       win.focus();
     }
