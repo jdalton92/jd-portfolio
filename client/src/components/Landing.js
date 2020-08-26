@@ -22,7 +22,7 @@ const Landing = ({ api }) => {
             <div className="landing-subheader">
               <b> fullstack web developer </b>
               <br />
-              sydney, australia
+              melbourne, australia
             </div>
           </Fade>
         </div>
