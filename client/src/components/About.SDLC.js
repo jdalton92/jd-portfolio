@@ -21,7 +21,7 @@ const SDLC = () => {
               </li>
               <li>
                 Gained insight into large-scale commercial software development
-                and worked directly with in house softwar developers in created
+                and worked directly with in house software developers in created
                 detailed user stories, and testing user scripts
               </li>
               <li>
