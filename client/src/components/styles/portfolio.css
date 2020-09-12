@@ -140,8 +140,7 @@ p {
   overflow: hidden;
 }
 
-.portfolio-description,
-.portfolio-tech-stack {
+.portfolio-bullets {
   position: absolute;
   top: 0px;
   overflow-x: hidden;
@@ -151,7 +150,7 @@ p {
   word-wrap: break-word;
 }
 
-.portfolio-tech-stack {
+.portfolio-bullets {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -159,49 +158,8 @@ p {
   line-height: 1.5em;
 }
 
-.portfolio-tech-stack ul {
+.portfolio-bullets ul {
   width: 90%;
-}
-
-.flogs-description,
-.reacttrelloclone-description,
-.jamesdaltonio-description,
-.propertyinvestordash-description {
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.flogs-description span,
-.reacttrelloclone-description span,
-.moocs-description span,
-.jamesdaltonio-description span,
-.propertyinvestordash-description span {
-  line-height: 1.5em;
-  width: 90%;
-}
-
-.mooc-table {
-  padding: 25px;
-}
-
-.mooc-table-row {
-  display: flex;
-  padding-bottom: 15px;
-}
-
-.mooc-table-heading {
-  flex: 1;
-}
-
-.mooc-table-text {
-  line-height: 1.5em;
-  flex: 3;
-}
-
-.portfolio-mooc-table-heading {
-  padding-top: 0px !important;
 }
 
 .portfolio-image-container {
@@ -214,7 +172,6 @@ p {
   position: relative;
 }
 
-.moocs-image-mobile,
 .portfolio-image-mobile {
   display: none;
 }
@@ -336,13 +293,9 @@ p {
     right: 8% !important;
   }
 
-  .portfolio-tech-stack ul {
+  .portfolio-bullets ul {
     list-style-type: none;
     padding: 5px;
-  }
-
-  .mooc-table {
-    padding: 10px;
   }
 }
 
@@ -369,8 +322,7 @@ p {
     display: none;
   }
 
-  .portfolio-image-mobile,
-  .moocs-image-mobile {
+  .portfolio-image-mobile {
     display: initial;
     position: static;
   }
@@ -382,31 +334,8 @@ p {
     object-fit: contain;
   }
 
-  .portfolio-tech-stack {
+  .portfolio-bullets {
     justify-content: flex-start;
-  }
-
-  .portfolio-description span {
-    height: 95%;
-    padding: 5px;
-  }
-
-  .mooc-table ul {
-    padding-left: 15px;
-  }
-
-  .mooc-table-row {
-    flex-direction: column;
-  }
-
-  .mooc-table-heading,
-  .mooc-table-text {
-    flex: 1;
-  }
-
-  .mooc-table-heading {
-    font-weight: bold;
-    text-align: center;
   }
 }
 

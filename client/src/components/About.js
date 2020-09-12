@@ -8,7 +8,7 @@ import Slide from "react-reveal/Slide";
 import "./styles/about.css";
 
 const About = () => {
-  const [content, setContent] = useState("education");
+  const [content, setContent] = useState("sldc");
 
   let aboutInfo;
   if (content === "education") {
@@ -40,11 +40,11 @@ const About = () => {
               <div className="about-nav">
                 <div
                   className={`about-nav-item ${
-                    content === "education" ? "selected" : ""
+                    content === "sldc" ? "selected" : ""
                   }`}
-                  onClick={() => setContent("education")}
+                  onClick={() => setContent("sldc")}
                 >
-                  Education
+                  SDLC Experience
                 </div>
                 <div
                   className={`about-nav-item ${
@@ -56,19 +56,19 @@ const About = () => {
                 </div>
                 <div
                   className={`about-nav-item ${
-                    content === "sldc" ? "selected" : ""
-                  }`}
-                  onClick={() => setContent("sldc")}
-                >
-                  SDLC Experience
-                </div>
-                <div
-                  className={`about-nav-item ${
                     content === "professionalHistory" ? "selected" : ""
                   }`}
                   onClick={() => setContent("professionalHistory")}
                 >
                   Professional History
+                </div>
+                <div
+                  className={`about-nav-item ${
+                    content === "education" ? "selected" : ""
+                  }`}
+                  onClick={() => setContent("education")}
+                >
+                  Education
                 </div>
                 <div
                   className={`about-nav-item ${

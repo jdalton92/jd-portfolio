@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useContext } from "react";
+import NotificationContext from "../context/NotificationContext";
 
 const PortfolioContent = ({ data, view }) => {
+  const { setNotification } = useContext(NotificationContext);
+
   const handleLiveLink = (e) => {
     e.preventDefault();
     const win = window.open(data.url);
@@ -11,9 +14,14 @@ const PortfolioContent = ({ data, view }) => {
 
   const handleGitHubLink = (e) => {
     e.preventDefault();
-    const win = window.open(data.github);
-    if (win != null) {
-      win.focus();
+    if (data.github) {
+      const win = window.open(data.github);
+      if (win != null) {
+        win.focus();
+      }
+    } else {
+      setNotification("Not open source!");
+      setTimeout(() => setNotification(""), 10000);
     }
   };
 
@@ -53,11 +61,25 @@ const PortfolioContent = ({ data, view }) => {
         </div>
       </>
     );
-  } else if (view === "description") {
-    body = <div className="portfolio-description">{data.description}</div>;
+  } else if (view === "detail") {
+    body = (
+      <div className="portfolio-bullets">
+        <ul>
+          <li>
+            <b>Role: </b> {data.detail.role}
+          </li>
+          <li>
+            <b>Development Phase: </b> {data.detail.developmentPhase}
+          </li>
+          <li>
+            <b>Product Description: </b> {data.detail.description}
+          </li>
+        </ul>
+      </div>
+    );
   } else if (view === "techStack") {
     body = (
-      <div className="portfolio-tech-stack">
+      <div className="portfolio-bullets">
         <ul>
           <li>
             <b>Frontend: </b>
@@ -71,10 +93,12 @@ const PortfolioContent = ({ data, view }) => {
             <b>API: </b>
             {data.tech.api}
           </li>
-          <li>
-            <b>Database Hosting: </b>
-            {data.tech.hosting.database}
-          </li>
+          {data.tech.hosting.database && (
+            <li>
+              <b>Database Hosting: </b>
+              {data.tech.hosting.database}
+            </li>
+          )}
           <li>
             <b>Website Hosting: </b>
             {data.tech.hosting.website}

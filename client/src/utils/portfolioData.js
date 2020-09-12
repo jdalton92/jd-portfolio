@@ -1,4 +1,3 @@
-import React from "react";
 import propertyInvestorDashDesktopImage from "../components/styles/images/propertyinvestordash-desktop.jpg";
 import propertyInvestorDashMobileImage from "../components/styles/images/propertyinvestordash-mobile.jpg";
 import jamesDaltonIoDesktopImage from "../components/styles/images/jamesdaltonio-desktop.jpg";
@@ -7,8 +6,8 @@ import reactTrelloCloneDesktopImage from "../components/styles/images/reacttrell
 import reactTrelloCloneMobileImage from "../components/styles/images/reacttrelloclone-mobile.jpg";
 import flogsDesktopImage from "../components/styles/images/flogs-desktop.jpg";
 import flogsMobileImage from "../components/styles/images/flogs-mobile.jpg";
-import moocsDesktopImage from "../components/styles/images/moocs-desktop.jpg";
-import moocsMobileImage from "../components/styles/images/moocs-mobile.jpg";
+import campusDesktopImage from "../components/styles/images/campus-desktop.jpg";
+import campusMobileImage from "../components/styles/images/campus-mobile.jpg";
 
 export const propertyInvestorDash = {
   title: "PropertyInvestorDASH",
@@ -17,15 +16,12 @@ export const propertyInvestorDash = {
     desktop: propertyInvestorDashDesktopImage,
     mobile: propertyInvestorDashMobileImage,
   },
-  description: (
-    <div className="propertyinvestordash-description">
-      <span>
-        PropertyInvestorDASH is an open source create/read/update/delete (CRUD)
-        responsive single page application (SPA) that is used as a simple tool
-        for estimating property investments with simple dashboard outputs
-      </span>
-    </div>
-  ),
+  detail: {
+    role: "Sole creator/owner",
+    developmentPhase: "Prototype",
+    description:
+      "PropertyInvestorDASH is an open source create/read/update/delete (CRUD) responsive single page application (SPA) that is used as a simple tool for estimating property investments with simple dashboard outputs",
+  },
   tech: {
     frontend:
       "HTML, CSS, React (16.8+), Redux/Hooks, Axios. JavaScript ES5/6 with try/catch blocks and async/await",
@@ -47,15 +43,12 @@ export const jamesDaltionIo = {
     desktop: jamesDaltonIoDesktopImage,
     mobile: jamesDaltonIoMobileImage,
   },
-  description: (
-    <div className="jamesdaltonio-description">
-      <span>
-        jamesdalton.io is a responsive website to display information about
-        myself including professional/academic history, as well as provide
-        detail about my portfolio of bespoke web applications
-      </span>
-    </div>
-  ),
+  detail: {
+    role: "Sole creator/owner",
+    developmentPhase: "Prototype",
+    description:
+      "jamesdalton.io is a responsive website to display information about myself including professional/academic history, as well as provide detail about my portfolio of bespoke web applications",
+  },
   tech: {
     frontend:
       "HTML, CSS/SCSS, React (16.8+), state management with React context hooks, Axios. JavaScript ES5/6 with try/catch blocks and async/await",
@@ -77,18 +70,12 @@ export const flogs = {
     desktop: flogsDesktopImage,
     mobile: flogsMobileImage,
   },
-  description: (
-    <div className="flogs-description">
-      <span>
-        flogs.me started as a finance blog (flog) and has expanded to be a
-        lifestyle blog for posting content from different contributors in
-        different topics including money, fitness, lifestyle, art, and more.
-        Content for flogs.me is continually being expanded, and maintained by a
-        custom content management system (CMS) that I developed specifically for
-        flogs.me
-      </span>
-    </div>
-  ),
+  detail: {
+    role: "Sole creator/owner",
+    developmentPhase: "Prototype",
+    description:
+      "flogs.me started as a finance blog (flog) and has expanded to be a lifestyle blog for posting content from different contributors in different topics including money, fitness, lifestyle, art, and more. Content for flogs.me is continually being expanded, and maintained by a custom content management system (CMS) that I developed specifically for flogs.me",
+  },
   tech: {
     frontend:
       "HTML, CSS/SCSS, React (16.8+), state management with React context hooks, Apollo Client, Axios. JavaScript ES5/6 with try/catch blocks and async/await",
@@ -110,16 +97,12 @@ export const reactTrelloClone = {
     desktop: reactTrelloCloneDesktopImage,
     mobile: reactTrelloCloneMobileImage,
   },
-  description: (
-    <div className="reacttrelloclone-description">
-      <span>
-        React Trello Clone is a minimal responsive web application used as a
-        Trello clone with a personalised interface made with React/Redux. I
-        prototyped this application to use for tracking my web app development,
-        and to test different UI/UX concepts.
-      </span>
-    </div>
-  ),
+  detail: {
+    role: "Sole creator/owner",
+    developmentPhase: "Prototype",
+    description:
+      "React Trello Clone is a minimal responsive web application used as a Trello clone with a personalised interface made with React/Redux. I prototyped this application to use for tracking my web app development, and to test different UI/UX concepts.",
+  },
   tech: {
     frontend:
       "HTML, SCSS, React (16.8+), Redux, React Hooks, Axios. JavaScript ES5/6 with try/catch blocks and async/await",
@@ -133,85 +116,27 @@ export const reactTrelloClone = {
   github: "https://github.com/jdalton92/react-trello-clone",
 };
 
-export const moocs = {
-  title: "Massive Online Open Courses (MOOCs)",
-  url: "https://github.com/jdalton92",
+export const campus = {
+  title: "Ucroo: Campus App",
+  url: "https://campus.app",
   image: {
-    desktop: moocsDesktopImage,
-    mobile: moocsMobileImage,
+    desktop: campusDesktopImage,
+    mobile: campusMobileImage,
   },
-  description: (
-    <div className="mooc-table">
-      <div className="mooc-table-row">
-        <div className="mooc-table-heading">
-          HarvardX: CS50X Introduction to Computer Science
-        </div>
-        <div className="mooc-table-text">
-          <ul>
-            <li>
-              C: fundamentals of procedural programming, memory allocation, data
-              structures/types. structs, pointers
-            </li>
-            <li>
-              Python: fundamentals of object orientated progamming, key
-              applications of class/functions/methods, web development with
-              Flask framework/HTML/CSS/jQuery
-            </li>
-            <li>SQL: database management, querying, and hosting</li>
-          </ul>
-        </div>
-      </div>
-      <div className="mooc-table-row">
-        <div className="mooc-table-heading">
-          University of Helsinki: Deep Dive Into Modern Web Development
-        </div>
-        <div className="mooc-table-text">
-          <ul>
-            <li>
-              Fundamentals of full stack web development. State management with
-              React hooks and redux, full stack single page application
-              development using React functional components, implementing
-              styling to webpages with CSS styled components / UI Frameworks
-              (Bootstrap/Semantic UI), developing/integration with backend
-              RESTful and GraphQL APIs, token authentication, debugging /
-              linting / E2E testing with ESLint / Jest / Cypress, hosting with
-              AWS and Heroku
-            </li>
-            <li>
-              Fundamental experience in object oriented programming, functional
-              programing, with practical web development applications utilising
-              ECMA 6 standard JavaScript with try/catch blocks and async/await
-              functions
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div className="mooc-table-row">
-        <div className="mooc-table-heading">
-          Stanford: Machine Learning (in progress)
-        </div>
-        <div className="mooc-table-text">
-          <ul>
-            <li>
-              Introduction to machine learning with data science libraries in
-              Python (numPy)
-            </li>
-            <li>Supervised/unsupervised machine learning</li>
-            <li>Innovation process in machine learning and A.I.</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  ),
+  detail: {
+    role: "Full Stack Engineer in core development team",
+    developmentPhase: "Production",
+    description:
+      "Campus is a modern end to end portal to connect everyone and everything you do at colleges/institutions - a single, personalized place for students, staff, faculty, prospects, alumni, communications, events, information, files and systems. Adopted by close to 50 partners, with over a million page visits every week.",
+  },
   tech: {
-    frontend: "HTML, CSS, JQuery, React, Redux",
-    backend: "Python (Flask), Node, Mongoose, Express, MongoDB, SQL",
-    api: "REST, GraphQL",
-    other: "Python (matplotlib), Octave, Matlab",
+    frontend: "Angular9, TypeScript, HTML, SASS/CSS",
+    backend: "Python (Django), PostgreSQL, Celery, RabbitMQ, Docker",
+    api: "REST",
     hosting: {
-      database: "AtlasDB & Amazon Web Services (AWS)",
-      website: "Heroku",
+      database: null,
+      website: "Google Kubernetes Engine (Docker & Kubernetes)",
     },
   },
-  github: "https://github.com/jdalton92",
+  github: null,
 };

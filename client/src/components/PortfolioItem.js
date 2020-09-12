@@ -41,11 +41,11 @@ const PortfolioItem = ({ data }) => {
                 </div>
                 <div
                   className={`portfolio-link ${
-                    view === "description" ? "portfolio-selected" : ""
+                    view === "detail" ? "portfolio-selected" : ""
                   }`}
-                  onClick={() => setView("description")}
+                  onClick={() => setView("detail")}
                 >
-                  description
+                  detail
                 </div>
                 <div
                   className={`portfolio-link ${

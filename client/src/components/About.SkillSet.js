@@ -12,14 +12,17 @@ const Skillset = () => {
         <div className="skill-body-wrapper">
           <div className="skill-table">
             <SkillSetSkill name={"HTML"} rating={65} />
-            <SkillSetSkill name={"CSS"} rating={65} />
+            <SkillSetSkill name={"SASS/CSS"} rating={65} />
             <SkillSetSkill name={"JavaScript"} rating={60} />
             <SkillSetSkill name={"React"} rating={60} />
+            <SkillSetSkill name={"TypeScript"} rating={50} />
+            <SkillSetSkill name={"Angular"} rating={40} />
             <SkillSetSkill name={"Node"} rating={60} />
             <SkillSetSkill name={"Python"} rating={40} />
+            <SkillSetSkill name={"Django"} rating={40} />
             <SkillSetSkill name={"SQL"} rating={35} />
             <SkillSetSkill name={"MongoDB"} rating={50} />
-            <SkillSetSkill name={"jQuery"} rating={30} />
+            <SkillSetSkill name={"Docker"} rating={20} />
             <SkillSetSkill name={"C"} rating={20} />
             <SkillSetSkill name={"C++"} rating={10} />
           </div>

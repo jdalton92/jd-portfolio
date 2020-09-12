@@ -15,18 +15,17 @@ const SDLC = () => {
             <h5 className="about-subheader-2">Planning, Design, Prototyping</h5>
             <ul className="about-block-content">
               <li>
+                Successfully implement UI/UX redesign/optimisation in a
+                delivering a modern student portal, as a Full Stack Engineer at{" "}
+                <a href="https://campus.app">Campus</a>, utilising Angular9,
+                TypeScript, HTML, and SASS/CSS.
+              </li>
+              <li>
                 Directly contributed to building a bespoke prototype integrated
                 CRM / database web application for the CBRE's Australia and New
-                Zealand business (1000+ employees)
-              </li>
-              <li>
-                Gained insight into large-scale commercial software development
-                and worked directly with in house software developers in created
-                detailed user stories, and testing user scripts
-              </li>
-              <li>
-                Successfully delivered on 2-week sprints cycles, understaking
-                substantial UI/UX redesign to suit the business’ core needs
+                Zealand business (1000+ employees), in a business analyst role.
+                Successfully delivered on 2-week sprints, understaking
+                substantial UI/UX redesign to suit the business’ core needs.
               </li>
             </ul>
 
@@ -35,15 +34,24 @@ const SDLC = () => {
             </h5>
             <ul className="about-block-content">
               <li>
-                8 credits in University of Helsinki: Deep Dive into Modern Web
-                Development achieving fundamental understanding/experience in
-                debugging, linting and E2E testing across a modern tech stack
-                with ESLint, Jest and Cypress
+                Contributing as part of the core development team at{" "}
+                <a href="https://campus.app">Campus</a>, where I successfully
+                contributed in the upgrade of the frontend codebase from
+                AngularJS to Angular9, and backend features/improvements/bug
+                fixes using Django/Celery/RabbitMQ/PostgreSQL and Docker.
+                Further, I directly collaborate with DevOps engineers
+                implementing CI/CD workflows utilising tools including Jira,
+                Git, Sentry, as well as personally undertaking
+                unit/integration/end-to-end testing on development,
+                pre-production, and production environments.
               </li>
               <li>
                 Sole creater/owner of bespoke responsive full stack single page
-                web applications built with modern tech stack, deploying via
-                Heroku, Digital Ocean, and AWS. Refer to my{" "}
+                web applications built with modern tech stack, personally
+                maintained on DigitalOcean (AWS) servers using Ubuntu, Bash,
+                OpenSSH, NginX, and LetsEncrypt. Deployment and maintenance
+                based on CI/CD principals with debugging, linting and E2E
+                testing using ESLint, Jest and Cypress. Refer to my{" "}
                 <a href="/#portfolio">portfolio</a> below
               </li>
             </ul>

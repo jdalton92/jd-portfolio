@@ -12,19 +12,17 @@ const ProfessionalHistory = () => {
           <>
             <h5 className="about-subheader-2">Campus | Jul 2020 - Current</h5>
             <ul className="about-block-content">
-              <li>
-                Software Engineer | Full Stack
-              </li>
+              <li>Software Engineer | Full Stack</li>
             </ul>
             <h5 className="about-subheader-2">CBRE | Apr 2017 - Jul 2020</h5>
             <ul className="about-block-content">
               <li>
-                Financial Analyst | Structured Transactions &amp;
-                Advisory
+                Financial Analyst | Structured Transactions &amp; Advisory
               </li>
-              <li>Analyst | Advisory &amp; Transactions</li>
             </ul>
-            <h5 className="about-subheader-2">Lendlease | Jan 2016 - Apr 2017</h5>
+            <h5 className="about-subheader-2">
+              Lendlease | Jan 2016 - Apr 2017
+            </h5>
             <ul className="about-block-content">
               <li>Site Engineer</li>
             </ul>

@@ -4,7 +4,7 @@ import {
   reactTrelloClone,
   flogs,
   jamesDaltionIo,
-  moocs,
+  campus,
 } from "../utils/portfolioData";
 import PortfolioItem from "./PortfolioItem";
 import "./styles/portfolio.css";
@@ -16,11 +16,11 @@ const Portfolio = () => {
         <div className="header portfolio-header">
           <h3>PORTFOLIO</h3>
         </div>
+        <PortfolioItem data={campus} />
         <PortfolioItem data={propertyInvestorDash} />
         <PortfolioItem data={flogs} />
         <PortfolioItem data={reactTrelloClone} />
         <PortfolioItem data={jamesDaltionIo} />
-        <PortfolioItem data={moocs} />
       </div>
     </div>
   );

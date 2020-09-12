@@ -9,16 +9,21 @@ const Other = () => {
           <h4 className="about-subheader">OTHER</h4>
         </Fade>
         <Fade bottom>
-          <ul className="about-block-content">
-            <li className="about-li">
-              Active participant: Github, StackOverflow, LeetCode,
-              reddit.com/r/learnprogramming
-            </li>
-            <li className="about-li">
-              Interests: Surfing/surfboard making, technology, fitness, beer
-              brewing, travel, music, film
-            </li>
-          </ul>
+          <>
+            <h5 className="about-subheader-2">Active Participant</h5>
+            <ul className="about-block-content">
+              <li>
+                Github, StackOverflow, LeetCode, reddit.com/r/learnprogramming
+              </li>
+            </ul>
+            <h5 className="about-subheader-2">Interests</h5>
+            <ul className="about-block-content">
+              <li>
+                Surfing/surfboard making, technology, fitness, beer brewing,
+                travel, music, film
+              </li>
+            </ul>
+          </>
         </Fade>
       </div>
     </>
