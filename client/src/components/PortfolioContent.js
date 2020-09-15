@@ -66,6 +66,9 @@ const PortfolioContent = ({ data, view }) => {
       <div className="portfolio-bullets">
         <ul>
           <li>
+            <b>Company: </b> {data.detail.company}
+          </li>
+          <li>
             <b>Role: </b> {data.detail.role}
           </li>
           <li>

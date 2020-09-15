@@ -15,7 +15,7 @@ const SDLC = () => {
             <h5 className="about-subheader-2">Planning, Design, Prototyping</h5>
             <ul className="about-block-content">
               <li>
-                Successfully implement UI/UX redesign/optimisation in a
+                Successfully implemented UI/UX redesign and optimisation in
                 delivering a modern student portal, as a Full Stack Engineer at{" "}
                 <a href="https://campus.app">Campus</a>, utilising Angular9,
                 TypeScript, HTML, and SASS/CSS.

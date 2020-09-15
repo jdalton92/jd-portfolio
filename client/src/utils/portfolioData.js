@@ -17,6 +17,7 @@ export const propertyInvestorDash = {
     mobile: propertyInvestorDashMobileImage,
   },
   detail: {
+    company: "n/a",
     role: "Sole creator/owner",
     developmentPhase: "Prototype",
     description:
@@ -44,6 +45,7 @@ export const jamesDaltionIo = {
     mobile: jamesDaltonIoMobileImage,
   },
   detail: {
+    company: "n/a",
     role: "Sole creator/owner",
     developmentPhase: "Prototype",
     description:
@@ -71,6 +73,7 @@ export const flogs = {
     mobile: flogsMobileImage,
   },
   detail: {
+    company: "n/a",
     role: "Sole creator/owner",
     developmentPhase: "Prototype",
     description:
@@ -98,6 +101,7 @@ export const reactTrelloClone = {
     mobile: reactTrelloCloneMobileImage,
   },
   detail: {
+    company: "n/a",
     role: "Sole creator/owner",
     developmentPhase: "Prototype",
     description:
@@ -124,6 +128,7 @@ export const campus = {
     mobile: campusMobileImage,
   },
   detail: {
+    company: "Campus",
     role: "Full Stack Engineer in core development team",
     developmentPhase: "Production",
     description:
