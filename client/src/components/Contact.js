@@ -43,57 +43,61 @@ const Contact = () => {
         </div>
         <Fade bottom>
           <div className="form-container">
-            {loading ? (
-              <div className="loader">Loading...</div>
-            ) : (
-              <form onSubmit={handleSubmit}>
-                <div className="form-field">
-                  <input
-                    onChange={formHandler}
-                    name="fullName"
-                    placeholder="name"
-                    className="form-input"
-                    type="text"
-                    maxLength="50"
-                    required
-                  />
-                </div>
-                <div className="form-field">
-                  <input
-                    onChange={formHandler}
-                    placeholder="your@email.com"
-                    name="email"
-                    className="form-input"
-                    type="email"
-                    maxLength="100"
-                    required
-                  />
-                </div>
-                <div className="form-field message-field">
-                  <textarea
-                    onChange={formHandler}
-                    name="message"
-                    placeholder="message"
-                    className="form-input"
-                    id="form-message"
-                    input="text"
-                    maxLength="1250"
-                    required
-                  />
-                </div>
-                <div className="form-button-container">
-                  <button
-                    className="form-button"
-                    id="form-submit"
-                    type="submit"
-                    variant="primary"
-                  >
-                    Submit
-                  </button>
-                </div>
-              </form>
+            {loading && (
+              <div className="loader-wrapper">
+                <div className="loader">Loading...</div>
+              </div>
             )}
-            <div className="contact-icons">
+            <form
+              className={`${loading ? "hide" : ""}`}
+              onSubmit={handleSubmit}
+            >
+              <div className="form-field">
+                <input
+                  onChange={formHandler}
+                  name="fullName"
+                  placeholder="name"
+                  className="form-input"
+                  type="text"
+                  maxLength="50"
+                  required
+                />
+              </div>
+              <div className="form-field">
+                <input
+                  onChange={formHandler}
+                  placeholder="your@email.com"
+                  name="email"
+                  className="form-input"
+                  type="email"
+                  maxLength="100"
+                  required
+                />
+              </div>
+              <div className="form-field message-field">
+                <textarea
+                  onChange={formHandler}
+                  name="message"
+                  placeholder="message"
+                  className="form-input"
+                  id="form-message"
+                  input="text"
+                  maxLength="1250"
+                  required
+                />
+              </div>
+              <div className="form-button-container">
+                <button
+                  className="form-button"
+                  id="form-submit"
+                  type="submit"
+                  variant="primary"
+                >
+                  Submit
+                </button>
+              </div>
+            </form>
+            <div className={`${loading ? "hide" : ""} contact-icons`}>
               <ContactIcons />
             </div>
           </div>

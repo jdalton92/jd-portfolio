@@ -21,6 +21,7 @@
   border-radius: 5px;
   min-height: 50px;
   animation: drop 0.3s ease-in-out;
+  padding: 4px;
 }
 
 .notification:hover {

@@ -10,7 +10,7 @@ import campusDesktopImage from "../components/styles/images/campus-desktop.jpg";
 import campusMobileImage from "../components/styles/images/campus-mobile.jpg";
 
 export const propertyInvestorDash = {
-  title: "PropertyInvestorDASH",
+  title: "PropertyInvestorDash",
   url: "https://propertyinvestordash.com",
   image: {
     desktop: propertyInvestorDashDesktopImage,
@@ -21,7 +21,7 @@ export const propertyInvestorDash = {
     role: "Sole creator/owner",
     developmentPhase: "Prototype",
     description:
-      "PropertyInvestorDASH is an open source create/read/update/delete (CRUD) responsive single page application (SPA) that is used as a simple tool for estimating property investments with simple dashboard outputs",
+      "PropertyInvestorDash is an open source create/read/update/delete (CRUD) responsive single page application (SPA) that is used as a simple tool for estimating property investments with simple dashboard outputs",
   },
   tech: {
     frontend:

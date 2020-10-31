@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.6cbc1501.chunk.css",
-    "main.js": "/static/js/main.2034a355.chunk.js",
-    "main.js.map": "/static/js/main.2034a355.chunk.js.map",
+    "main.css": "/static/css/main.2666140b.chunk.css",
+    "main.js": "/static/js/main.804288b2.chunk.js",
+    "main.js.map": "/static/js/main.804288b2.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0683b4fc.js",
     "runtime-main.js.map": "/static/js/runtime-main.0683b4fc.js.map",
     "static/js/2.7523501d.chunk.js": "/static/js/2.7523501d.chunk.js",
     "static/js/2.7523501d.chunk.js.map": "/static/js/2.7523501d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.e5970e3a02bec08ea7ab490147e7f4c2.js": "/precache-manifest.e5970e3a02bec08ea7ab490147e7f4c2.js",
+    "precache-manifest.cc39c3c6ea0ba4368b0047e0c67e6bae.js": "/precache-manifest.cc39c3c6ea0ba4368b0047e0c67e6bae.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.6cbc1501.chunk.css.map": "/static/css/main.6cbc1501.chunk.css.map",
+    "static/css/main.2666140b.chunk.css.map": "/static/css/main.2666140b.chunk.css.map",
     "static/js/2.7523501d.chunk.js.LICENSE.txt": "/static/js/2.7523501d.chunk.js.LICENSE.txt",
     "static/media/campus-desktop.jpg": "/static/media/campus-desktop.d22ff051.jpg",
     "static/media/campus-mobile.jpg": "/static/media/campus-mobile.513cbe6d.jpg",
@@ -20,14 +20,14 @@
     "static/media/jamesdaltonio-desktop.jpg": "/static/media/jamesdaltonio-desktop.0439476f.jpg",
     "static/media/jamesdaltonio-mobile.jpg": "/static/media/jamesdaltonio-mobile.44d51b91.jpg",
     "static/media/landing.css": "/static/media/landing-background-mobile.004f3a75.jpg",
-    "static/media/propertyinvestordash-desktop.jpg": "/static/media/propertyinvestordash-desktop.d701b8ed.jpg",
-    "static/media/propertyinvestordash-mobile.jpg": "/static/media/propertyinvestordash-mobile.3b3f31a5.jpg",
+    "static/media/propertyinvestordash-desktop.jpg": "/static/media/propertyinvestordash-desktop.f21c42fb.jpg",
+    "static/media/propertyinvestordash-mobile.jpg": "/static/media/propertyinvestordash-mobile.03502a12.jpg",
     "static/media/reacttrelloclone-desktop.jpg": "/static/media/reacttrelloclone-desktop.0254e076.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.0683b4fc.js",
     "static/js/2.7523501d.chunk.js",
-    "static/css/main.6cbc1501.chunk.css",
-    "static/js/main.2034a355.chunk.js"
+    "static/css/main.2666140b.chunk.css",
+    "static/js/main.804288b2.chunk.js"
   ]
 }
