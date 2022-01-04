@@ -1,10 +1,9 @@
 import React from "react";
-import { useHistory } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import "./styles/navigationbar.css";
 
 const NavigationBar = () => {
-  const history = useHistory();
-  const hash = history.location.hash;
+  const { hash } = useLocation();
   return (
     <div className="navbar-container">
       <div className="navbar-logo">

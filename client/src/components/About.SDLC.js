@@ -17,8 +17,14 @@ const SDLC = () => {
               <li>
                 Successfully implemented UI/UX redesign and optimisation in
                 delivering a modern student portal, as a Full Stack Engineer at{" "}
-                <a href="https://campus.app">Campus</a>, utilising Angular9,
-                TypeScript, HTML, and SASS/CSS.
+                <a
+                  href="https://pathify.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Pathify
+                </a>
+                , utilising an Angular, Django, and Postgres stack.
               </li>
               <li>
                 Directly contributed to building a bespoke prototype integrated
@@ -35,21 +41,27 @@ const SDLC = () => {
             <ul className="about-block-content">
               <li>
                 Contributing as part of the core development team at{" "}
-                <a href="https://campus.app">Campus</a>, where I successfully
-                contributed in the upgrade of the frontend codebase from
-                AngularJS to Angular9, and backend features/improvements/bug
-                fixes using Django/Celery/RabbitMQ/PostgreSQL and Docker.
-                Further, I directly collaborate with DevOps engineers
-                implementing CI/CD workflows utilising tools including Jira,
-                Git, Sentry, as well as personally undertaking
-                unit/integration/end-to-end testing on development,
-                pre-production, and production environments.
+                <a
+                  href="https://pathify.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Pathify
+                </a>
+                , where I successfully contributed in the upgrade of the
+                frontend codebase from AngularJS to Angular11, and backend
+                features/improvements/bug fixes using
+                Django/Celery/RabbitMQ/PostgreSQL and Docker. Further, I
+                directly collaborate with DevOps engineers implementing CI/CD
+                workflows utilising tools including Jira, Git, Sentry, as well
+                as personally undertaking unit/integration/end-to-end testing on
+                development, pre-production, and production environments.
               </li>
               <li>
                 Sole creater/owner of bespoke responsive full stack single page
                 web applications built with modern tech stack, personally
                 maintained on DigitalOcean (AWS) servers using Ubuntu, Bash,
-                OpenSSH, NginX, and LetsEncrypt. Deployment and maintenance
+                OpenSSH, Nginx, and LetsEncrypt. Deployment and maintenance
                 based on CI/CD principals with debugging, linting and E2E
                 testing using ESLint, Jest and Cypress. Refer to my{" "}
                 <a href="/#portfolio">portfolio</a> below

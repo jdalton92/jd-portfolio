@@ -10,7 +10,7 @@ const ProfessionalHistory = () => {
         </Fade>
         <Fade bottom>
           <>
-            <h5 className="about-subheader-2">Campus | Jul 2020 - Current</h5>
+            <h5 className="about-subheader-2">Pathify | Jul 2020 - Current</h5>
             <ul className="about-block-content">
               <li>Software Engineer | Full Stack</li>
             </ul>

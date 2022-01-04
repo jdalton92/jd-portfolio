@@ -30,8 +30,8 @@ const About = () => {
           <h3>ABOUT ME</h3>
         </div>
         <div className="about-slogan">
-          Self-motivated, self-taught web developer with technical skills across
-          modern frontend &amp; backend technologies, and experience across the
+          Self-motivated web developer with demonstrable technical proficiency
+          across modern frontend/backend technologies, and experience across the
           whole software development lifecycle
         </div>
         <div className="about-body">

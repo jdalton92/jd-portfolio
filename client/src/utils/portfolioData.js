@@ -21,11 +21,10 @@ export const propertyInvestorDash = {
     role: "Sole creator/owner",
     developmentPhase: "Prototype",
     description:
-      "PropertyInvestorDash is an open source create/read/update/delete (CRUD) responsive single page application (SPA) that is used as a simple tool for estimating property investments with simple dashboard outputs",
+      "PropertyInvestorDash is an open source responsive app, used as a tool for estimating property investments with simple dashboard outputs",
   },
   tech: {
-    frontend:
-      "HTML, CSS, React (16.8+), Redux/Hooks, Axios. JavaScript ES5/6 with try/catch blocks and async/await",
+    frontend: "HTML, CSS, React, Redux/Hooks, Axios",
     backend: "Node, Express, Mongoose, MongoDB",
     api: "REST",
     hosting: {
@@ -52,8 +51,7 @@ export const jamesDaltionIo = {
       "jamesdalton.io is a responsive website to display information about myself including professional/academic history, as well as provide detail about my portfolio of bespoke web applications",
   },
   tech: {
-    frontend:
-      "HTML, CSS/SCSS, React (16.8+), state management with React context hooks, Axios. JavaScript ES5/6 with try/catch blocks and async/await",
+    frontend: "HTML, CSS/SCSS, React, Axios",
     backend: "Node, Express, Mongoose, MongoDB",
     api: "REST",
     hosting: {
@@ -77,11 +75,10 @@ export const flogs = {
     role: "Sole creator/owner",
     developmentPhase: "Prototype",
     description:
-      "flogs.me started as a finance blog (flog) and has expanded to be a lifestyle blog for posting content from different contributors in different topics including money, fitness, lifestyle, art, and more. Content for flogs.me is continually being expanded, and maintained by a custom content management system (CMS) that I developed specifically for flogs.me",
+      "flogs.me started as a proof of concept finance blog (flog) and has expanded to for posting content from different contributors in different topics including money, fitness, lifestyle, technology and more. Content for flogs.me is continually being expanded, and maintained by a custom content management system (CMS) that I developed specifically for flogs.me",
   },
   tech: {
-    frontend:
-      "HTML, CSS/SCSS, React (16.8+), state management with React context hooks, Apollo Client, Axios. JavaScript ES5/6 with try/catch blocks and async/await",
+    frontend: "HTML, CSS/SCSS, React, Apollo, Axios",
     backend: "Node, Express, Mongoose, MongoDB",
     api: "GraphQL with Apollo Server",
     hosting: {
@@ -108,8 +105,7 @@ export const reactTrelloClone = {
       "React Trello Clone is a minimal responsive web application used as a Trello clone with a personalised interface made with React/Redux. I prototyped this application to use for tracking my web app development, and to test different UI/UX concepts.",
   },
   tech: {
-    frontend:
-      "HTML, SCSS, React (16.8+), Redux, React Hooks, Axios. JavaScript ES5/6 with try/catch blocks and async/await",
+    frontend: "HTML, SCSS, React, Redux, Axios",
     backend: "Node, Express, Mongoose, MongoDB",
     api: "REST",
     hosting: {
@@ -120,23 +116,24 @@ export const reactTrelloClone = {
   github: "https://github.com/jdalton92/react-trello-clone",
 };
 
-export const campus = {
-  title: "Ucroo: Campus App",
-  url: "https://campus.app",
+export const pathify = {
+  title: "Pathify: Student Portal",
+  url: "https://pathify.com",
   image: {
     desktop: campusDesktopImage,
     mobile: campusMobileImage,
   },
   detail: {
-    company: "Campus",
+    company: "Pathify",
     role: "Full Stack Engineer in core development team",
     developmentPhase: "Production",
     description:
-      "Campus is a modern end to end portal to connect everyone and everything you do at colleges/institutions - a single, personalized place for students, staff, faculty, prospects, alumni, communications, events, information, files and systems. Adopted by close to 50 partners, with over a million page visits every week.",
+      "Pathify is a modern end to end portal to connect everyone and everything you do at colleges/institutions - a single, personalized place for students, staff, faculty, prospects, alumni, communications, events, information, files and systems. Adopted by over 50 customers, with over a million page visits every week.",
   },
   tech: {
-    frontend: "Angular9, TypeScript, HTML, SASS/CSS",
-    backend: "Python (Django), PostgreSQL, Celery, RabbitMQ, Docker",
+    frontend: "Angular, TypeScript, HTML, SCSS/CSS",
+    backend:
+      "Django/Django REST Framework, PostgreSQL, Celery, RabbitMQ, Docker",
     api: "REST",
     hosting: {
       database: null,
