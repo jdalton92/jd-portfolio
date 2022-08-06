@@ -10,7 +10,7 @@ const Other = () => {
         </Fade>
         <Fade bottom>
           <>
-            <h5 className="about-subheader-2">Active Participant</h5>
+            <h5 className="about-subheader-2">Active User</h5>
             <ul className="about-block-content">
               <li>
                 Github, StackOverflow, LeetCode, reddit.com/r/learnprogramming
@@ -19,8 +19,8 @@ const Other = () => {
             <h5 className="about-subheader-2">Interests</h5>
             <ul className="about-block-content">
               <li>
-                Surfing/surfboard making, technology, fitness, beer brewing,
-                travel, music, film
+                Surfing/surfboard shaping, beer brewing, travel, fitness, music,
+                film
               </li>
             </ul>
           </>

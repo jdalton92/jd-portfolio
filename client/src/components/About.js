@@ -1,27 +1,26 @@
 import React, { useState } from "react";
 import Education from "./About.Education";
 import SkillSet from "./About.SkillSet";
-import SDLC from "./About.SDLC";
 import ProfessionalHistory from "./About.ProfessionalHistory";
 import Other from "./About.Other";
 import Slide from "react-reveal/Slide";
 import "./styles/about.css";
 
 const About = () => {
-  const [content, setContent] = useState("sldc");
+  const [content, setContent] = useState("professionalHistory");
 
-  let aboutInfo;
-  if (content === "education") {
-    aboutInfo = <Education />;
-  } else if (content === "skillSet") {
-    aboutInfo = <SkillSet />;
-  } else if (content === "sldc") {
-    aboutInfo = <SDLC />;
-  } else if (content === "professionalHistory") {
-    aboutInfo = <ProfessionalHistory />;
-  } else if (content === "other") {
-    aboutInfo = <Other />;
-  }
+  const getContent = () => {
+    switch (content) {
+      case "education":
+        return <Education />;
+      case "skillSet":
+        return <SkillSet />;
+      case "professionalHistory":
+        return <ProfessionalHistory />;
+      case "other":
+        return <Other />;
+    }
+  };
 
   return (
     <div className="section about-section">
@@ -40,11 +39,11 @@ const About = () => {
               <div className="about-nav">
                 <div
                   className={`about-nav-item ${
-                    content === "sldc" ? "selected" : ""
+                    content === "professionalHistory" ? "selected" : ""
                   }`}
-                  onClick={() => setContent("sldc")}
+                  onClick={() => setContent("professionalHistory")}
                 >
-                  SDLC Experience
+                  Professional History
                 </div>
                 <div
                   className={`about-nav-item ${
@@ -53,14 +52,6 @@ const About = () => {
                   onClick={() => setContent("skillSet")}
                 >
                   Skill Set
-                </div>
-                <div
-                  className={`about-nav-item ${
-                    content === "professionalHistory" ? "selected" : ""
-                  }`}
-                  onClick={() => setContent("professionalHistory")}
-                >
-                  Professional History
                 </div>
                 <div
                   className={`about-nav-item ${
@@ -83,7 +74,7 @@ const About = () => {
           </div>
           <Slide right>
             <div className="about-right">
-              <div className="about-right-content">{aboutInfo}</div>
+              <div className="about-right-content">{getContent()}</div>
             </div>
           </Slide>
         </div>

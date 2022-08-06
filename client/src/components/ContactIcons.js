@@ -59,11 +59,6 @@ const ContactIcons = () => {
         className="contact-icon stackoverflow-icon"
       />
       <div
-        title="Dev.to"
-        onClick={handleDevto}
-        className="contact-icon devto-icon"
-      />
-      <div
         title="LinkedIn"
         onClick={handleLinkedIn}
         className="contact-icon linkedin-icon"
