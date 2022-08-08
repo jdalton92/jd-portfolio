@@ -15,10 +15,11 @@ const About = () => {
         return <Education />;
       case "skillSet":
         return <SkillSet />;
-      case "professionalHistory":
-        return <ProfessionalHistory />;
       case "other":
         return <Other />;
+      case "professionalHistory":
+      default:
+        return <ProfessionalHistory />;
     }
   };
 

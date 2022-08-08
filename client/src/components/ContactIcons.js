@@ -27,14 +27,6 @@ const ContactIcons = () => {
       "mailto:jamesdalton7648@gmail.com?subject=jamesdalton.io%20message";
   };
 
-  const handleDevto = (e) => {
-    e.preventDefault();
-    const win = window.open("https://dev.to/jdalton92", "_blank");
-    if (win != null) {
-      win.focus();
-    }
-  };
-
   const handleStackOverflow = (e) => {
     e.preventDefault();
     const win = window.open(

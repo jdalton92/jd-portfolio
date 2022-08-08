@@ -21,7 +21,7 @@ export const propertyInvestorDash = {
     role: "Sole creator/owner",
     developmentPhase: "Prototype",
     description:
-      "PropertyInvestorDash is an open source responsive app, used as a tool for estimating property investments with simple dashboard outputs",
+      "PropertyInvestorDash is web app and tool for estimating property investments with simple dashboard outputs",
   },
   tech: {
     frontend: "HTML, CSS, React, Redux/Hooks, Axios",
@@ -128,7 +128,7 @@ export const pathify = {
     role: "Full Stack Engineer in core development team",
     developmentPhase: "Production",
     description:
-      "Pathify is a modern end to end portal to connect everyone and everything you do at colleges/institutions - a single, personalized place for students, staff, faculty, prospects, alumni, communications, events, information, files and systems. Adopted by over 50 customers, with over a million page visits every week.",
+      "Pathify is a modern end to end portal to connect everyone and everything you do at colleges/institutions - a single, personalized place for students, staff, faculty, prospects, alumni, communications, events, information, files and systems. Adopted by over 50 universities, with over a million page visits every week.",
   },
   tech: {
     frontend: "Angular, TypeScript, HTML, SCSS/CSS",
